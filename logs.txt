@@ -1,558 +1,765 @@
 =================================================
 GAME NUMBER 1
 =================================================
-[Lee sin] vs [Zoe]
-[1][1/3][Lee sin]Tour point added.
-[2][2/3][Lee sin]Attack damage boosted: 75.0
-[3][3/3][Lee sin]Attack damage boosted: 85.0
-[3][0/3] Zoe is losing tour caused by range difference.Mariusz [Lee sin] ITS YOUR TURN!
-[4][1/3][Lee sin]Attack damage boosted: 95.0
-[5][2/3][Lee sin]Missed move.
-[6][3/3][Lee sin]Tour point added.
-[6][0/3] Zoe is losing tour caused by range difference.Mariusz [Lee sin] ITS YOUR TURN!
-[7][1/3][Lee sin]Attack damage boosted: 105.0
+[Hwei] vs [Zed]
+[1][1/3][Hwei]Magic damage dealt: 146,16
+[2][2/3][Hwei]Magic damage dealt: 85,26
+[3][3/3][Hwei]Tour point added.
+[3][0/3] Zed is losing tour caused by range difference.HWEI [Hwei] ITS YOUR TURN!
+[4][1/3][Hwei]Attack damage boosted: 55.0
+[5][2/3][Hwei]Attack damage boosted: 65.0
+=================================================
+GAME NUMBER 1
+=================================================
+[Zed] vs [Hwei]
+[1][1/3][Hwei]Missed move.
+[2][2/3][Hwei]Attack damage boosted: 55.0
+[3][3/3][Hwei]Magic damage dealt: 85,26
+[3][0/3] Zed is losing tour caused by range difference.321 [Hwei] ITS YOUR TURN!
+[4][1/3][Hwei][CRIT]Magic damage dealt: 182,70
+[5][2/3][Hwei][CRIT]Tour point added.
+[6][3/3][Hwei]Missed move.
+[6][0/3] Zed is losing tour caused by range difference.321 [Hwei] ITS YOUR TURN!
+[7][1/3][Hwei][CRIT]Normal attack
+[8][2/3][Hwei]Normal attack
+[9][3/3][Hwei]Normal attack
+[10][1/3][Zed]Normal attack
+[11][2/3][Zed]Normal attack
+[12][3/3][Zed]Normal attack
+[13][1/3][Hwei]Missed move.
+[14][2/3][Hwei]Normal attack
+[15][3/3][Hwei]Normal attack
+[16][1/3][Zed]DOUBLE ATTACK!
+[17][2/3][Zed]Missed move.
+[18][3/3][Zed]Physical damage dealt: 167,20
+[19][1/3][Hwei][CRIT]Normal attack
+[20][2/3][Hwei]Missed move.
+[21][3/3][Hwei][CRIT]Normal attack
+[22][1/3][Zed]Physical damage dealt: 167,20
+[Hwei]Died... [Zed]is a WINNER 
+=================================================
+GAME NUMBER 2
+=================================================
+[Zed] vs [Lee sin]
+[1][1/3][Zed]DOUBLE ATTACK!
+[2][2/3][Zed]Normal attack
+[3][3/3][Zed]Normal attack
+[4][1/3][Lee sin]Normal attack
+[5][2/3][Lee sin]Normal attack
+[6][3/3][Lee sin]Normal attack
+[Zed]Died... [Lee sin]is a WINNER 
+=================================================
+GAME NUMBER 3
+=================================================
+[Lee sin] vs [Zed]
+[Zed]Died... [Lee sin]is a WINNER 
+=================================================
+GAME NUMBER 1
+=================================================
+[Zed] vs [Hwei]
+[0][0/3] Zed is losing tour caused by range difference.321 [Hwei] ITS YOUR TURN!
+[1][1/3][Hwei]Magic damage boosted: 100.0
+[2][2/3][Hwei]Attack damage boosted: 55.0
+[3][3/3][Hwei]Magic damage dealt: 88,20
+[4][1/3][Zed]Physical damage dealt: 167,20
+[5][2/3][Zed]Missed move.
+[6][3/3][Zed]DOUBLE ATTACK!
+[7][1/3][Hwei]Missed move.
+[8][2/3][Hwei][CRIT]Healed: 130,00
+[9][3/3][Hwei]Magic damage dealt: 151,20
+[10][1/3][Zed]DOUBLE ATTACK!
+[11][2/3][Zed]Normal attack
+[12][3/3][Zed]Normal attack
+[13][1/3][Hwei]Missed move.
+[14][2/3][Hwei]Normal attack
+[15][3/3][Hwei]Normal attack
+[16][1/3][Zed]Normal attack
+[17][2/3][Zed]Normal attack
+[18][3/3][Zed]Normal attack
+[Hwei]Died... [Zed]is a WINNER 
+=================================================
+GAME NUMBER 2
+=================================================
+[Lee sin] vs [Zed]
+[1][1/3][Lee sin]Normal attack
+[2][2/3][Lee sin]Normal attack
+[3][3/3][Lee sin]Normal attack
+[4][1/3][Zed]Normal attack
+[5][2/3][Zed]Normal attack
+[6][3/3][Zed]Normal attack
+[7][1/3][Lee sin]Normal attack
 [8][2/3][Lee sin]Normal attack
 [9][3/3][Lee sin]Normal attack
-[10][1/3][Zoe]Missed move.
-[11][2/3][Zoe]Normal attack
-[12][3/3][Zoe]Normal attack
-[13][1/3][Lee sin]Missed move.
+[10][1/3][Zed]Normal attack
+[11][2/3][Zed]Normal attack
+[12][3/3][Zed]Normal attack
+[13][1/3][Lee sin]Normal attack
 [14][2/3][Lee sin]Normal attack
-[15][3/3][Lee sin]Normal attack
-[16][1/3][Zoe]Normal attack
-[17][2/3][Zoe]Normal attack
-[18][3/3][Zoe]Normal attack
-[19][1/3][Lee sin]Normal attack
-[20][2/3][Lee sin]Normal attack
-[21][3/3][Lee sin]Normal attack
-[22][1/3][Zoe]Normal attack
-[23][2/3][Zoe]Normal attack
-[24][3/3][Zoe]Normal attack
-[25][1/3][Lee sin]Normal attack
-[Zoe]Died... [Lee sin]is a WINNER 
+[Zed]Died... [Lee sin]is a WINNER 
 =================================================
 GAME NUMBER 1
 =================================================
-[Lux] vs [Zoe]
-[1][1/3][Lux]Magic damage dealt: 300,00
-[2][2/3][Lux]Magic damage dealt: 144,00
-[3][3/3][Lux]Magic damage dealt: 144,00
-[3][0/3] Zoe is losing tour caused by range difference.o [Lux] ITS YOUR TURN!
-[4][1/3][Lux]Normal attack
-[5][2/3][Lux]Normal attack is LUCKY MOVE!
-[6][3/3][Lux]Normal attack
-[Zoe]Died... [Lux]is a WINNER 
-TOTAL GAMES: [1]
-[o]Score: 1
-[l]Score: 0
-Winner table:
-[Lux] won 1 time/s.
+[Zed] vs [Hwei]
+[0][0/3] Zed is losing tour caused by range difference.321 [Hwei] ITS YOUR TURN!
+[1][1/3][Zed]DOUBLE ATTACK!
+[2][2/3][Zed]DOUBLE ATTACK!
+[3][3/3][Zed]Physical damage dealt: 167,20
+[4][1/3][Hwei][CRIT]Healed: 127,00
+[5][1/3][Zed]Physical damage dealt: 167,20
+=================================================
+GAME NUMBER 1
+=================================================
+[Zed] vs [Hwei]
+[0][0/3] Zed is losing tour caused by range difference. [Hwei] ITS YOUR TURN!
+[1][1/3][Hwei][CRIT]Healed: 127,00
+[2][2/3][Hwei]Normal attack
+[3][3/3][Hwei][CRIT]Magic damage boosted: 128.125
+[4][1/3][Zed]Physical damage dealt: 167,20
+=================================================
+GAME NUMBER 1
+=================================================
+[Zed] vs [Hwei]
+[1][1/3][Hwei]Healed: 101,60
+=================================================
+GAME NUMBER 1
+=================================================
+[Garen] vs [Darius]
+=================================================
+GAME NUMBER 1
+=================================================
+[Darius] vs [Garen]
+=================================================
+GAME NUMBER 1
+=================================================
+[Darius] vs [Garen]
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Darius]
+[1][1/3][Lee sin]Normal attack
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Garen]
+[1][1/3][Garen]Missed move.
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Singed]
+[1][1/3][Singed]Normal attack
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Singed]
+[1][1/3][Singed]Normal attack
+=================================================
+GAME NUMBER 1
+=================================================
+[Darius] vs [Malphite]
+[1][1/3][Malphite]Normal attack
+[2][2/3][Malphite]Missed move.
+[3][3/3][Malphite]Normal attack
+[4][1/3][Darius]Normal attack
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Garen]
+[1][1/3][Garen]Attack damage boosted: 65.0
+[2][2/3][Garen]Normal attack
+[3][3/3][Garen]Normal attack
+[4][1/3][Lee sin]Normal attack
+[5][2/3][Lee sin]Normal attack
+[6][3/3][Lee sin]Normal attack
+[7][1/3][Garen]Normal attack
+[8][2/3][Garen]Normal attack
+[9][3/3][Garen]Normal attack
+[10][1/3][Lee sin]Normal attack
+[11][2/3][Lee sin]Normal attack
+[12][3/3][Lee sin]Normal attack
+[13][1/3][Garen]Normal attack
+[14][2/3][Garen]Normal attack
+[15][3/3][Garen]Normal attack
+[16][1/3][Lee sin]Normal attack
+[17][2/3][Lee sin]Normal attack
+[18][3/3][Lee sin]Normal attack
+[19][1/3][Garen]Missed move.
+[20][2/3][Garen]Normal attack
+[21][3/3][Garen]Normal attack
+[22][1/3][Lee sin]Normal attack
+[23][2/3][Lee sin]Normal attack
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Garen]
+[1][1/3][Lee sin]Normal attack
+[2][2/3][Lee sin]Normal attack
+[3][3/3][Lee sin]Normal attack
+[4][1/3][Garen]Normal attack
+[5][2/3][Garen]Normal attack
+[6][3/3][Garen]Normal attack
+=================================================
+GAME NUMBER 1
+=================================================
+[Garen] vs [Malphite]
+[1][1/3][Malphite]Missed move.
+[2][2/3][Malphite]Normal attack
+[3][3/3][Malphite]Normal attack
+[4][1/3][Garen]Normal attack
+[5][2/3][Garen]Normal attack
+[6][3/3][Garen]Normal attack
+[7][1/3][Malphite]Normal attack
+[8][2/3][Malphite]Normal attack
+[9][3/3][Malphite]Normal attack
+[10][1/3][Garen]Normal attack
+[11][2/3][Garen]Normal attack
+[12][3/3][Garen]DOUBLE ATTACK!
+[13][1/3][Malphite]Thorns turned ON!
+[14][2/3][Malphite]Normal attack
+[15][3/3][Malphite]Thorns turned ON!
+[16][1/3][Garen]Normal attack
+[17][2/3][Garen]Normal attack
+[18][3/3][Garen]Normal attack
+[PASSIVE]Thorns hit [Garen] for 18,56
+[19][1/3][Malphite]Normal attack
+[20][2/3][Malphite]Normal attack
+[21][3/3][Malphite]Normal attack
+[22][1/3][Garen]Normal attack
+[23][2/3][Garen]Missed move.
+[24][3/3][Garen]Missed move.
+[PASSIVE]Thorns hit [Garen] for 6,19
+[25][1/3][Malphite]Normal attack
+[26][2/3][Malphite]Normal attack
+[27][3/3][Malphite]Normal attack
+[28][1/3][Garen]Normal attack
+[29][2/3][Garen]Normal attack
+[30][3/3][Garen]Normal attack
+[PASSIVE]Thorns hit [Garen] for 18,56
+[31][1/3][Malphite]Normal attack
+[32][2/3][Malphite]Normal attack
+[33][3/3][Malphite]Normal attack
+[34][1/3][Garen]Normal attack
+[35][2/3][Garen]Normal attack
+[36][3/3][Garen]Normal attack
+[PASSIVE]Thorns hit [Garen] for 18,56
+[37][1/3][Malphite]Normal attack
+[38][2/3][Malphite]Normal attack
+[39][3/3][Malphite]Normal attack
+[40][1/3][Garen]Normal attack
+[41][2/3][Garen]Normal attack
+[42][3/3][Garen]Normal attack
+[PASSIVE]Thorns hit [Garen] for 18,56
+[43][1/3][Malphite]Normal attack
+[44][2/3][Malphite]Normal attack
+[45][3/3][Malphite]Missed move.
+[46][1/3][Garen]Normal attack
+[47][2/3][Garen]Normal attack
+[48][3/3][Garen]Normal attack
+[PASSIVE]Thorns hit [Garen] for 18,56
+[49][1/3][Malphite]Normal attack
+[50][2/3][Malphite]Normal attack
+[51][3/3][Malphite]Missed move.
+[52][1/3][Garen]Normal attack
+[53][2/3][Garen]Missed move.
+[54][3/3][Garen]Normal attack
+[PASSIVE]Thorns hit [Garen] for 12,37
+[55][1/3][Malphite]Normal attack
+[Garen]Died... [Malphite]is a WINNER 
 =================================================
 GAME NUMBER 2
 =================================================
-[Zoe] vs [Lux]
-[0][0/3] Zoe is losing tour caused by range difference.l [Lux] ITS YOUR TURN!
-[1][1/3][Lux]Magic damage dealt: 144,00
-[2][2/3][Lux]Magic damage dealt: 144,00
-[3][3/3][Lux]Magic damage dealt: 300,00
-[4][1/3][Zoe]Normal attack
-[5][2/3][Zoe]Normal attack
-[6][3/3][Zoe]Normal attack
-[7][1/3][Lux]Normal attack is LUCKY MOVE!
-[8][2/3][Lux]Normal attack
-[9][3/3][Lux]Normal attack
-[Zoe]Died... [Lux]is a WINNER 
-TOTAL GAMES: [2]
-[o]Score: 1
-[l]Score: 1
-Winner table:
-[Lux] won 2 time/s.
+GAME NUMBER 1
 =================================================
-GAME NUMBER 3
+[Lee sin] vs [Garen]
 =================================================
 GAME NUMBER 1
 =================================================
-GAME NUMBER 1
-=================================================
-[Lux] vs [Singed]
-[0][0/3] Singed is losing tour caused by range difference.1 [Lux] ITS YOUR TURN!
-[1][1/3][Lux]Normal attack
-[2][2/3][Lux]Normal attack
-[3][3/3][Lux]Normal attack is LUCKY MOVE!
-[4][1/3][Singed]Tour point added.
-[5][2/3][Singed]Missed move.
-[6][3/3][Singed]Tour point added.
-[6][0/3] Lux is losing tour caused by range difference.2 [Singed] ITS YOUR TURN!
-[7][1/3][Singed]Normal attack
-[8][2/3][Singed]Normal attack
-[9][3/3][Singed]Normal attack
-[9][0/3] Lux is losing tour caused by range difference.2 [Singed] ITS YOUR TURN!
-[10][1/3][Singed]Normal attack
-[11][2/3][Singed]Normal attack
-[12][3/3][Singed]Normal attack
-[13][1/3][Lux]Normal attack
-[14][2/3][Lux]Normal attack
-[15][3/3][Lux]Normal attack
-[16][1/3][Singed]Normal attack
-[17][2/3][Singed]Normal attack
-[18][3/3][Singed]Normal attack
-[19][1/3][Lux]Normal attack
-[20][2/3][Lux]Normal attack
-[21][3/3][Lux]Normal attack
-[22][1/3][Singed]Normal attack
-[23][2/3][Singed]Normal attack
-[24][3/3][Singed]Normal attack
-[25][1/3][Lux]Normal attack is LUCKY MOVE!
-=================================================
-GAME NUMBER 1
-=================================================
-[Lux] vs [Olaf]
-[0][0/3] Olaf is losing tour caused by range difference.1win [Lux] ITS YOUR TURN!
-[1][1/3][Lux]Magic damage dealt: 153,00
-[2][2/3][Lux]Missed move.
-[3][3/3][Lux]Magic damage dealt: 318,75
-[4][1/3][Olaf]Missed move.
-[5][2/3][Olaf]Missed move.
-[6][3/3][Olaf]Missed move.
-[7][1/3][Lux]Healed: 156,00 is LUCKY MOVE!
-[8][2/3][Lux]Healed: 156,00
-[9][3/3][Lux]Missed move.
-[10][1/3][Olaf]Normal attack
-[11][2/3][Olaf]Normal attack
-[12][3/3][Olaf]Normal attack
-[13][1/3][Lux]Normal attack is LUCKY MOVE!
-[14][2/3][Lux]Normal attack
-[15][3/3][Lux]Normal attack is LUCKY MOVE!
-[16][1/3][Olaf]Normal attack
-[17][2/3][Olaf]Normal attack
-[18][3/3][Olaf]Missed move.
-[19][1/3][Lux]Healed: 156,00
-[20][2/3][Lux]Normal attack
-[21][3/3][Lux]Normal attack
-[22][1/3][Olaf]Missed move.
-[23][2/3][Olaf]Lifesteal turned ON!
-[24][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 21,54
-[25][1/3][Lux]Normal attack
-[26][2/3][Lux]Normal attack
-[27][3/3][Lux]Normal attack
-[28][1/3][Olaf]Normal attack
-[29][2/3][Olaf]Normal attack
-[30][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 64,63
-[31][1/3][Lux]Normal attack
-[32][2/3][Lux]Normal attack
-[33][3/3][Lux]Normal attack
-[34][1/3][Olaf]Normal attack
-[35][2/3][Olaf]Normal attack
-[36][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 64,63
-[37][1/3][Lux]Normal attack
-[38][2/3][Lux]Normal attack is LUCKY MOVE!
-[39][3/3][Lux]Normal attack
-[40][1/3][Olaf]Normal attack
-[41][2/3][Olaf]Normal attack
-[42][3/3][Olaf]Attack damage boosted: 75.0
-[PASSIVE][Olaf]Healed for 43,09
-[43][1/3][Lux]Normal attack
-[44][2/3][Lux]Normal attack is LUCKY MOVE!
-[45][3/3][Lux]Normal attack is LUCKY MOVE!
-[Olaf]Died... [Lux]is a WINNER 
-=================================================
-GAME NUMBER 2
-=================================================
-[Olaf] vs [Lux]
-[1][1/3][Lux]Magic damage dealt: 318,75 is LUCKY MOVE!
-[2][2/3][Lux]Magic damage dealt: 153,00
-[3][3/3][Lux]Magic damage dealt: 153,00
-[3][0/3] Olaf is losing tour caused by range difference.1win [Lux] ITS YOUR TURN!
-[4][1/3][Lux]Missed move.
-[5][2/3][Lux]Normal attack
-[6][3/3][Lux]Normal attack
-[7][1/3][Olaf]Lifesteal turned ON!
-[8][2/3][Olaf]Normal attack
-[9][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 43,09
-[10][1/3][Lux]Healed: 156,00
-[11][2/3][Lux]Healed: 156,00 is LUCKY MOVE!
-[12][3/3][Lux]Healed: 156,00
-[13][1/3][Olaf]Attack damage boosted: 75.0
-[14][2/3][Olaf]Normal attack
-[15][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 49,71
-[16][1/3][Lux]Normal attack
-[17][2/3][Lux]Normal attack
-[18][3/3][Lux]Normal attack
-[19][1/3][Olaf]Attack damage boosted: 85.0
-[20][2/3][Olaf]Normal attack
-[21][3/3][Olaf]Missed move.
-[PASSIVE][Olaf]Healed for 28,17
-[22][1/3][Lux]Normal attack
-[23][2/3][Lux]Missed move.
-[24][3/3][Lux]Normal attack
-[25][1/3][Olaf]Normal attack
-[26][2/3][Olaf]Normal attack
-[27][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 84,51
-[28][1/3][Lux]Normal attack
-[29][2/3][Lux]Normal attack
-[30][3/3][Lux]Normal attack
-[31][1/3][Olaf]Normal attack
-[32][2/3][Olaf]Normal attack
-[33][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 84,51
-[34][1/3][Lux]Normal attack is LUCKY MOVE!
-[35][2/3][Lux]Normal attack
-[36][3/3][Lux]Normal attack
-[37][1/3][Olaf]Normal attack
-[38][2/3][Olaf]Normal attack
-[39][3/3][Olaf]Attack damage boosted: 95.0
-[PASSIVE][Olaf]Healed for 56,34
-[40][1/3][Lux]Normal attack is LUCKY MOVE!
-[41][2/3][Lux]Normal attack
-[42][3/3][Lux]Normal attack
-[43][1/3][Olaf]Normal attack
-[44][2/3][Olaf]Normal attack
-[45][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 94,46
-[46][1/3][Lux]Normal attack
-[47][2/3][Lux]Normal attack
-[48][3/3][Lux]Normal attack
-[49][1/3][Olaf]Normal attack
-[Lux]Died... [Olaf]is a WINNER 
-TOTAL GAMES: [2]
-[1win]Score: 1
-[2lose]Score: 1
-Winner table:
-[Olaf] wins [1].
-[Lux] wins [1].
-=================================================
-GAME NUMBER 3
-=================================================
-[Rammus] vs [Olaf]
-[1][1/3][Olaf]Lifesteal turned ON!
-[2][2/3][Olaf]Missed move.
-[3][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 13,00
-[4][1/3][Rammus]Normal attack
-[5][2/3][Rammus]Normal attack
-[6][3/3][Rammus]Thorns turned ON!
-[7][1/3][Olaf]Attack damage boosted: 75.0
-[8][2/3][Olaf]Attack damage boosted: 85.0
-[9][3/3][Olaf]Attack damage boosted: 95.0
-[PASSIVE][Olaf]Healed for 0,00
-[PASSIVE]Thorns hit [Olaf] for 0,00
-[10][1/3][Rammus]Normal attack
-[11][2/3][Rammus]Physical and magic resist boosted: physical: 40.0 magic: 40.0
-[12][3/3][Rammus]Normal attack
-[13][1/3][Olaf]Normal attack
-[14][2/3][Olaf]Normal attack
-[15][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 48,86
-[PASSIVE]Thorns hit [Olaf] for 54,96
-[16][1/3][Rammus]Physical and magic resist boosted: physical: 45.0 magic: 45.0
-[17][2/3][Rammus]Physical and magic resist boosted: physical: 50.0 magic: 50.0
-[18][3/3][Rammus]Normal attack
-[19][1/3][Olaf]Normal attack
-[20][2/3][Olaf]Normal attack
-[21][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 32,57
-[PASSIVE]Thorns from [Rammus] to [Olaf] ended.
-[22][1/3][Rammus]Thorns turned ON!
-[23][2/3][Rammus]Normal attack
-[24][3/3][Rammus]Missed move.
-[25][1/3][Olaf]Missed move.
-[26][2/3][Olaf]Normal attack
-[27][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 21,71
-[PASSIVE]Thorns hit [Olaf] for 24,43
-[28][1/3][Rammus]Normal attack
-[29][2/3][Rammus]Missed move.
-[30][3/3][Rammus]Normal attack
-[31][1/3][Olaf]Normal attack
-[32][2/3][Olaf]Normal attack
-[33][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 32,57
-[PASSIVE]Thorns from [Rammus] to [Olaf] ended.
-[34][1/3][Rammus]Normal attack
-[35][2/3][Rammus]Normal attack
-[36][3/3][Rammus]Normal attack
-[37][1/3][Olaf]Normal attack
-[38][2/3][Olaf]Normal attack
-[39][3/3][Olaf]Missed move.
-[PASSIVE][Olaf]Healed for 21,71
-[40][1/3][Rammus]Normal attack
-[41][2/3][Rammus]Normal attack
-[42][3/3][Rammus]Normal attack
-[43][1/3][Olaf]Normal attack
-[44][2/3][Olaf]Normal attack
-[45][3/3][Olaf]Missed move.
-[PASSIVE][Olaf]Healed for 21,71
-[46][1/3][Rammus]Normal attack
-[47][2/3][Rammus]Normal attack
-[48][3/3][Rammus]Normal attack
-[49][1/3][Olaf]Normal attack
-[50][2/3][Olaf]Normal attack
-[51][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 32,57
-[52][1/3][Rammus]Normal attack
-[53][2/3][Rammus]Normal attack
-[54][3/3][Rammus]Missed move.
-[55][1/3][Olaf]Normal attack
-[56][2/3][Olaf]Normal attack
-[57][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 32,57
-[58][1/3][Rammus]Missed move.
-[59][2/3][Rammus]Missed move.
-[60][3/3][Rammus]Normal attack
-[61][1/3][Olaf]Missed move.
-[62][2/3][Olaf]Normal attack
-[63][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 21,71
-[64][1/3][Rammus]Normal attack
-[65][2/3][Rammus]Normal attack
-[66][3/3][Rammus]Normal attack
-[67][1/3][Olaf]Normal attack
-[68][2/3][Olaf]Normal attack
-[69][3/3][Olaf]Normal attack
-[PASSIVE][Olaf]Healed for 32,57
-[70][1/3][Rammus]Normal attack
-[71][2/3][Rammus]Normal attack
-[Olaf]Died... [Rammus]is a WINNER 
-TOTAL GAMES: [3]
-[1win]Score: 2
-[2lose]Score: 1
-Winner table:
-[Olaf] wins [1].
-[Rammus] wins [1].
-[Lux] wins [1].
-=================================================
-GAME NUMBER 4
-=================================================
-[Lux] vs [Zoe]
-[0][0/3] Zoe is losing tour caused by range difference.1win [Lux] ITS YOUR TURN!
-[1][1/3][Lux]Magic damage dealt: 144,00
-[2][2/3][Lux]Magic damage dealt: 144,00
-[3][3/3][Lux]Missed move.
-[4][1/3][Zoe]Normal attack
-[5][2/3][Zoe]Normal attack
-[6][3/3][Zoe]Normal attack
-[7][1/3][Lux]Missed move.
-[8][2/3][Lux]Normal attack
-[9][3/3][Lux]Normal attack
-[10][1/3][Zoe]Normal attack
-[11][2/3][Zoe]Normal attack
-[12][3/3][Zoe]Normal attack
-[13][1/3][Lux]Normal attack
-[14][2/3][Lux]Normal attack is LUCKY MOVE!
-[15][3/3][Lux]Normal attack
-[16][1/3][Zoe]Normal attack
-[17][2/3][Zoe]Normal attack
-[18][3/3][Zoe]Normal attack
-[19][1/3][Lux]Healed: 156,00
-[20][2/3][Lux]Normal attack
-[21][3/3][Lux]Normal attack
-[22][1/3][Zoe]Normal attack
-[23][2/3][Zoe]Missed move.
-[24][3/3][Zoe]Normal attack
-[25][1/3][Lux]Normal attack
-[26][2/3][Lux]Normal attack
-[27][3/3][Lux]Normal attack is LUCKY MOVE!
-[28][1/3][Zoe]Normal attack is LUCKY MOVE!
-[29][2/3][Zoe]Normal attack
-[30][3/3][Zoe]Normal attack
-[31][1/3][Lux]Normal attack is LUCKY MOVE!
-[32][2/3][Lux]Missed move.
-[33][3/3][Lux]Normal attack
-[34][1/3][Zoe]Normal attack
-[35][2/3][Zoe]Normal attack
-[36][3/3][Zoe]Normal attack is LUCKY MOVE!
-[37][1/3][Lux]Normal attack is LUCKY MOVE!
-[Zoe]Died... [Lux]is a WINNER 
-TOTAL GAMES: [4]
-[1win]Score: 3
-[2lose]Score: 1
-Winner table:
-[Olaf] wins [1].
-[Rammus] wins [1].
-[Lux] wins [2].
-=================================================
-GAME NUMBER 1
-=================================================
-[Olaf] vs [Lux]
-[0][0/3] Olaf is losing tour caused by range difference.2 [Lux] ITS YOUR TURN!
-[1][1/3][Lux]Magic damage dealt: 318,75
-[2][2/3][Lux]Magic damage dealt: 153,00 is LUCKY MOVE!
-[3][3/3][Lux]Magic damage dealt: 153,00
-[4][1/3][Olaf]Normal attack
-[5][2/3][Olaf]Normal attack
-[6][3/3][Olaf]Normal attack
-[7][1/3][Lux]Normal attack
-[8][2/3][Lux]Normal attack
-[9][3/3][Lux]Normal attack
-[Olaf]Died... [Lux]is a WINNER 
-=================================================
-GAME NUMBER 2
-=================================================
-[Olaf] vs [Lux]
-[1][1/3][Lux]Normal attack
-[2][2/3][Lux]Normal attack
-[3][3/3][Lux]Normal attack
-[3][0/3] Olaf is losing tour caused by range difference.2 [Lux] ITS YOUR TURN!
-[4][1/3][Lux]Normal attack
-[5][2/3][Lux]Normal attack
-[6][3/3][Lux]Normal attack
-[7][1/3][Olaf]Attack damage boosted: 75.0
-[8][2/3][Olaf]Attack damage boosted: 85.0
-[9][3/3][Olaf]Attack damage boosted: 95.0
-[10][1/3][Lux]Normal attack
-[11][2/3][Lux]Normal attack
-[12][3/3][Lux]Normal attack
-[13][1/3][Olaf]Normal attack
-[14][2/3][Olaf]Normal attack
-[15][3/3][Olaf]Normal attack
-[16][1/3][Lux]Normal attack
-[17][2/3][Lux]Normal attack
-[18][3/3][Lux]Normal attack is LUCKY MOVE!
-[19][1/3][Olaf]Normal attack
-[20][2/3][Olaf]Normal attack
-[21][3/3][Olaf]Normal attack
-[22][1/3][Lux]Normal attack is LUCKY MOVE!
-[23][2/3][Lux]Normal attack
-[24][3/3][Lux]Normal attack is LUCKY MOVE!
-[25][1/3][Olaf]Normal attack
-[26][2/3][Olaf]Missed move.
-[27][3/3][Olaf]Normal attack
-[28][1/3][Lux]Normal attack
-[29][2/3][Lux]Normal attack is LUCKY MOVE!
-[30][3/3][Lux]Missed move.
-[31][1/3][Olaf]Normal attack
-[Lux]Died... [Olaf]is a WINNER 
-TOTAL GAMES: [2]
-[1]Score: 1
-[2]Score: 1
-Winner table:
-[Olaf] wins [1].
-[Lux] wins [1].
-=================================================
-GAME NUMBER 3
-=================================================
-[Lux] vs [Zoe]
-[1][1/3][Lux]Magic damage dealt: 300,00
-[2][2/3][Lux]Magic damage dealt: 144,00
-[3][3/3][Lux]Magic damage dealt: 144,00
-[3][0/3] Zoe is losing tour caused by range difference.1 [Lux] ITS YOUR TURN!
-[4][1/3][Lux]Normal attack is LUCKY MOVE!
-[5][2/3][Lux]Normal attack
-[6][3/3][Lux]Missed move.
-[7][1/3][Zoe]Normal attack
-[8][2/3][Zoe]Normal attack
-[9][3/3][Zoe]Normal attack
-[10][1/3][Lux]Normal attack
-[Zoe]Died... [Lux]is a WINNER 
-TOTAL GAMES: [3]
-[1]Score: 2
-[2]Score: 1
-Winner table:
-[Olaf] wins [1].
-[Lux] wins [2].
-=================================================
-GAME NUMBER 1
-=================================================
-[Lux] vs [Olaf]
-[1][1/3][Lux]Magic damage dealt: 153,00
-[2][2/3][Lux]Magic damage dealt: 318,75
-[3][3/3][Lux]Magic damage dealt: 153,00 is LUCKY MOVE!
-[3][0/3] Olaf is losing tour caused by range difference.1 [Lux] ITS YOUR TURN!
-[4][1/3][Lux]Normal attack
-[5][2/3][Lux]Normal attack
-[6][3/3][Lux]Normal attack is LUCKY MOVE!
-[Olaf]Died... [Lux]is a WINNER 
-=================================================
-GAME NUMBER 2
-=================================================
-[Olaf] vs [Singed]
-[1][1/3][Olaf]Attack damage boosted: 75.0
-[2][2/3][Olaf]Attack damage boosted: 85.0
-[3][3/3][Olaf]Attack damage boosted: 95.0
+[Lee sin] vs [Singed]
+[1][1/3][Lee sin]Missed move.
+[2][2/3][Lee sin]Normal attack
+[3][3/3][Lee sin]Normal attack
 [4][1/3][Singed]Normal attack
 [5][2/3][Singed]Normal attack
 [6][3/3][Singed]Normal attack
-[7][1/3][Olaf]Normal attack
-[8][2/3][Olaf]Normal attack
-[9][3/3][Olaf]Normal attack
+[7][1/3][Lee sin]Normal attack
+[8][2/3][Lee sin]Normal attack
+[9][3/3][Lee sin]Normal attack
 [10][1/3][Singed]Normal attack
 [11][2/3][Singed]Normal attack
 [12][3/3][Singed]Normal attack
-[13][1/3][Olaf]Missed move.
-[14][2/3][Olaf]Normal attack
-[15][3/3][Olaf]Normal attack
-[16][1/3][Singed]Normal attack
-[17][2/3][Singed]Normal attack
-[18][3/3][Singed]Normal attack
-[19][1/3][Olaf]Normal attack
-[20][2/3][Olaf]Normal attack
-[21][3/3][Olaf]Normal attack
+[13][1/3][Lee sin]Normal attack
+[14][2/3][Lee sin]Normal attack
+[15][3/3][Lee sin]Normal attack
+[16][1/3][Singed]Poison applied to Lee sin
+[17][2/3][Singed]Tour point added.
+[18][3/3][Singed]Poison applied to Lee sin
+[PASSIVE][Lee sin] poisoned damage -106.25
+[18][0/3] Lee sin is losing tour caused by range difference.2 [Singed] ITS YOUR TURN!
+[19][1/3][Singed]Missed move.
+[20][2/3][Singed]Tour point added.
+[21][3/3][Singed]Normal attack
+[PASSIVE][Lee sin] poisoned damage -106.25
+[21][0/3] Lee sin is losing tour caused by range difference.2 [Singed] ITS YOUR TURN!
 [22][1/3][Singed]Normal attack
 [23][2/3][Singed]Normal attack
 [24][3/3][Singed]Normal attack
-[25][1/3][Olaf]Normal attack
-[26][2/3][Olaf]Normal attack
-[27][3/3][Olaf]Normal attack
+[PASSIVE][Lee sin] poisoned damage -106.25
+[25][1/3][Lee sin]Healed: 134,40
+[26][2/3][Lee sin]Healed: 134,40
+[27][3/3][Lee sin]Healed: 134,40
 [28][1/3][Singed]Normal attack
 [29][2/3][Singed]Normal attack
 [30][3/3][Singed]Normal attack
-[31][1/3][Olaf]Normal attack
-[32][2/3][Olaf]Normal attack
-[33][3/3][Olaf]Normal attack
+[PASSIVE][Singed] poison ended
+[31][1/3][Lee sin]Attack damage boosted: 75.0
+[32][2/3][Lee sin]Missed move.
+[33][3/3][Lee sin]Attack damage boosted: 85.0
 [34][1/3][Singed]Normal attack
-[35][2/3][Singed]Normal attack
+[35][2/3][Singed]Missed move.
 [36][3/3][Singed]Normal attack
-[37][1/3][Olaf]Normal attack
-[38][2/3][Olaf]Normal attack
-[Singed]Died... [Olaf]is a WINNER 
-TOTAL GAMES: [2]
+[37][1/3][Lee sin]Normal attack
+[38][2/3][Lee sin]Normal attack
+[39][3/3][Lee sin]Normal attack
+[40][1/3][Singed]Missed move.
+[41][2/3][Singed]Normal attack
+[42][3/3][Singed]Normal attack
+[43][1/3][Lee sin]Normal attack
+[44][2/3][Lee sin]Normal attack
+[45][3/3][Lee sin]Normal attack
+[46][1/3][Singed]Missed move.
+[47][2/3][Singed]Normal attack
+[48][3/3][Singed]Normal attack
+[49][1/3][Lee sin]Normal attack
+[50][2/3][Lee sin]Normal attack
+[51][3/3][Lee sin]Normal attack
+[52][1/3][Singed]Normal attack
+[53][2/3][Singed]Normal attack
+[54][3/3][Singed]Normal attack
+[55][1/3][Lee sin]Normal attack
+[56][2/3][Lee sin]Normal attack
+[Singed]Died... [Lee sin]is a WINNER 
+=================================================
+GAME NUMBER 1
+=================================================
+[Darius] vs [Lee sin]
+[1][1/3][Darius]Normal attack
+[2][2/3][Darius]Normal attack
+[3][3/3][Darius]Normal attack
+[4][1/3][Lee sin]Normal attack
+[5][2/3][Lee sin]Normal attack
+[6][3/3][Lee sin]Normal attack
+[7][1/3][Darius]Normal attack
+[8][2/3][Darius]Normal attack
+[9][3/3][Darius]Normal attack
+[10][1/3][Lee sin]Normal attack
+[11][2/3][Lee sin]Normal attack
+[12][3/3][Lee sin]Normal attack
+[13][1/3][Darius]Normal attack
+[14][2/3][Darius]Normal attack
+[15][3/3][Darius]Normal attack
+[16][1/3][Lee sin]Normal attack
+[17][2/3][Lee sin]Normal attack
+[18][3/3][Lee sin]Normal attack
+[19][1/3][Darius]Normal attack
+[20][2/3][Darius]Normal attack
+[21][3/3][Darius]Normal attack
+[22][1/3][Lee sin]Normal attack
+[23][2/3][Lee sin]Normal attack
+[24][3/3][Lee sin]Normal attack
+[25][1/3][Darius]Missed move.
+[26][2/3][Darius]Normal attack
+[27][3/3][Darius]Normal attack
+[28][1/3][Lee sin]Missed move.
+[29][2/3][Lee sin]Normal attack
+[30][3/3][Lee sin]Normal attack
+[31][1/3][Darius]Normal attack
+[32][2/3][Darius]Normal attack
+[33][3/3][Darius]Normal attack
+[34][1/3][Lee sin]Normal attack
+[35][2/3][Lee sin]Normal attack
+[36][3/3][Lee sin]Normal attack
+[37][1/3][Darius]Missed move.
+[38][2/3][Darius]Normal attack
+[39][3/3][Darius]Normal attack
+[Lee sin]Died... [Darius]is a WINNER 
+=================================================
+GAME NUMBER 1
+=================================================
+[Garen] vs [Lee sin]
+[1][1/3][Garen]Normal attack
+[2][2/3][Garen]Normal attack
+[3][1/3][Lee sin]Normal attack
+[4][2/3][Lee sin]Normal attack
+[5][3/3][Lee sin]Normal attack
+[6][1/3][Garen]Normal attack
+[7][2/3][Garen]Normal attack
+[8][3/3][Garen]Normal attack
+[9][1/3][Lee sin]Normal attack
+[10][2/3][Lee sin]Normal attack
+[11][3/3][Lee sin]Normal attack
+[12][1/3][Garen]Normal attack
+[13][2/3][Garen]Normal attack
+[14][3/3][Garen]Normal attack
+[15][1/3][Lee sin]Normal attack
+[16][2/3][Lee sin]Normal attack
+[17][3/3][Lee sin]Missed move.
+[18][1/3][Garen]Normal attack
+[19][2/3][Garen]Normal attack
+[20][3/3][Garen]Normal attack
+[21][1/3][Lee sin]Normal attack
+[22][2/3][Lee sin]Normal attack
+[23][3/3][Lee sin]Normal attack
+[24][1/3][Garen]Normal attack
+[25][2/3][Garen]Normal attack
+[26][3/3][Garen]Normal attack
+[27][1/3][Lee sin]Normal attack
+[28][2/3][Lee sin]Normal attack
+[29][3/3][Lee sin]Normal attack
+[30][1/3][Garen]Normal attack
+[31][2/3][Garen]Normal attack
+[32][3/3][Garen]Normal attack
+[33][1/3][Lee sin]Normal attack
+[34][2/3][Lee sin]Normal attack
+[35][3/3][Lee sin]Normal attack
+[36][1/3][Garen]Missed move.
+[37][2/3][Garen]Normal attack
+[38][3/3][Garen]Normal attack
+[Lee sin]Died... [Garen]is a WINNER 
+=================================================
+GAME NUMBER 2
+=================================================
+[Soraka] vs [Lee sin]
+[Lee sin]Died... [Soraka]is a WINNER 
+TOTAL GAMES: [0]
 [1]Score: 1
 [2]Score: 1
 Winner table:
-[Lux] wins [1].
-[Olaf] wins [1].
+[Soraka] wins [1].
+[Garen] wins [1].
+=================================================
+GAME NUMBER 1
+=================================================
+[Garen] vs [Malphite]
+[1][1/3][Garen]Normal attack
+[2][2/3][Garen]Normal attack
+[3][3/3][Garen]Normal attack
+[4][1/3][Malphite]Thorns turned ON!
+[5][2/3][Malphite]Normal attack
+[6][3/3][Malphite]Physical resist boosted: 40.0
+[7][1/3][Garen]Normal attack
+[8][2/3][Garen]Normal attack
+[9][3/3][Garen]Normal attack
+[PASSIVE]Thorns hit [Garen] for 15,91
+[10][1/3][Malphite]Normal attack
+[11][2/3][Malphite]Normal attack
+[12][3/3][Malphite]Normal attack
+[13][1/3][Garen]Normal attack
+[14][2/3][Garen]Normal attack
+[15][3/3][Garen]Normal attack
+[PASSIVE]Thorns hit [Garen] for 15,91
+[16][1/3][Malphite]Normal attack
+[17][2/3][Malphite]Normal attack
+[18][3/3][Malphite]Normal attack
+[19][1/3][Garen]Normal attack
+[20][2/3][Garen]Normal attack
+[21][3/3][Garen]Normal attack
+[PASSIVE]Thorns hit [Garen] for 15,91
+[22][1/3][Malphite]Normal attack
+[23][2/3][Malphite]Normal attack
+[24][3/3][Malphite]Normal attack
+[25][1/3][Garen]Normal attack
+[26][2/3][Garen]Normal attack
+[27][3/3][Garen]Normal attack
+[PASSIVE]Thorns hit [Garen] for 15,91
+[28][1/3][Malphite]Normal attack
+[29][2/3][Malphite]Normal attack
+[30][3/3][Malphite]Normal attack
+[31][1/3][Garen]Normal attack
+[32][2/3][Garen]Normal attack
+[33][3/3][Garen]Normal attack
+[PASSIVE]Thorns hit [Garen] for 15,91
+[34][1/3][Malphite]Normal attack
+[35][2/3][Malphite]Normal attack
+[36][3/3][Malphite]Normal attack
+[37][1/3][Garen]Normal attack
+[38][2/3][Garen]Normal attack
+[39][3/3][Garen]Normal attack
+[PASSIVE]Thorns hit [Garen] for 15,91
+[40][1/3][Malphite]Normal attack
+[41][2/3][Malphite]Normal attack
+[42][3/3][Malphite]Normal attack
+[43][1/3][Garen]Normal attack
+[44][2/3][Garen]Normal attack
+[45][3/3][Garen]Normal attack
+[PASSIVE]Thorns hit [Garen] for 15,91
+[46][1/3][Malphite]Normal attack
+[47][2/3][Malphite]Normal attack
+[48][3/3][Malphite]Normal attack
+[49][1/3][Garen]Normal attack
+[50][2/3][Garen]Normal attack
+[51][3/3][Garen]Normal attack
+[PASSIVE]Thorns hit [Garen] for 15,91
+[Garen]Died... [Malphite]is a WINNER 
+=================================================
+GAME NUMBER 2
+=================================================
+[Rammus] vs [Lee sin]
+[1][1/3][Rammus]Normal attack
+[2][2/3][Rammus]Normal attack
+[3][3/3][Rammus]Normal attack
+[4][1/3][Lee sin]Normal attack
+[5][2/3][Lee sin]Normal attack
+[6][3/3][Lee sin]Normal attack
+[7][1/3][Rammus]Normal attack
+[8][2/3][Rammus]Missed move.
+[9][3/3][Rammus]Normal attack
+[10][1/3][Lee sin]Normal attack
+[11][2/3][Lee sin]Normal attack
+[12][3/3][Lee sin]Normal attack
+[13][1/3][Rammus]Normal attack
+[14][2/3][Rammus]Normal attack
+[15][3/3][Rammus]Normal attack
+[16][1/3][Lee sin]Normal attack
+[17][2/3][Lee sin]Normal attack
+[18][3/3][Lee sin]Normal attack
+[19][1/3][Rammus]Normal attack
+[20][2/3][Rammus]Normal attack
+[21][3/3][Rammus]Normal attack
+[22][1/3][Lee sin]Normal attack
+[23][2/3][Lee sin]Normal attack
+[24][3/3][Lee sin]Normal attack
+[25][1/3][Rammus]Normal attack
+[26][2/3][Rammus]Normal attack
+[27][3/3][Rammus]Normal attack
+[28][1/3][Lee sin]Normal attack
+[29][2/3][Lee sin]Normal attack
+[30][3/3][Lee sin]Missed move.
+[31][1/3][Rammus]Normal attack
+[32][2/3][Rammus]Normal attack
+[33][3/3][Rammus]Normal attack
+[34][1/3][Lee sin]Normal attack
+[35][2/3][Lee sin]Normal attack
+[36][3/3][Lee sin]Missed move.
+[37][1/3][Rammus]Normal attack
+[38][2/3][Rammus]Normal attack
+[39][3/3][Rammus]Normal attack
+[40][1/3][Lee sin]Normal attack
+[41][2/3][Lee sin]Normal attack
+[42][3/3][Lee sin]Normal attack
+[43][1/3][Rammus]Normal attack
+[44][2/3][Rammus]Normal attack
+[45][3/3][Rammus]Normal attack
+[46][1/3][Lee sin]Normal attack
+[47][2/3][Lee sin]Normal attack
+[48][3/3][Lee sin]Normal attack
+[49][1/3][Rammus]Normal attack
+[50][2/3][Rammus]Normal attack
+[Lee sin]Died... [Rammus]is a WINNER 
+=================================================
+GAME NUMBER 1
+=================================================
+[Hwei] vs [Malphite]
+[1][1/3][Hwei]Normal attack
+[2][2/3][Hwei]Normal attack
+[3][3/3][Hwei]Normal attack
+[PASSIVE]Thorns hit [Hwei] for 13,02
+[3][0/3] Malphite is losing tour caused by range difference.2 [Hwei] ITS YOUR TURN!
+[4][1/3][Hwei]Normal attack
+[5][2/3][Hwei]Normal attack
+[6][3/3][Hwei]Normal attack
+[PASSIVE]Thorns hit [Hwei] for 13,02
+[7][1/3][Malphite]Normal attack
+[8][2/3][Malphite]Missed move.
+[9][3/3][Malphite]Normal attack
+[10][1/3][Hwei]Normal attack
+[11][2/3][Hwei]Normal attack
+[12][3/3][Hwei]Normal attack
+[PASSIVE]Thorns hit [Hwei] for 13,02
+[13][1/3][Malphite]Normal attack
+[14][2/3][Malphite]Normal attack
+[15][3/3][Malphite]Normal attack
+[16][1/3][Hwei]Magic damage boosted: 100.0
+[17][2/3][Hwei]Attack damage boosted: 55.0
+[18][3/3][Hwei]Magic damage dealt: 99,75
+[PASSIVE]Thorns hit [Hwei] for 22,44
+[19][1/3][Malphite]Normal attack
+[20][2/3][Malphite]Normal attack
+[21][3/3][Malphite]Missed move.
+[22][1/3][Hwei]Normal attack
+[23][2/3][Hwei]Magic damage dealt: 171,00
+[Malphite]Died... [Hwei]is a WINNER 
+=================================================
+GAME NUMBER 2
+=================================================
+[Lux] vs [Lee sin]
+[0][0/3] Lee sin is losing tour caused by range difference.1 [Lux] ITS YOUR TURN!
+[Lee sin]Died... [Lux]is a WINNER 
 =================================================
 GAME NUMBER 3
 =================================================
-[Olaf] vs [Zoe]
-[1][1/3][Zoe]Normal attack
-[2][2/3][Zoe]Normal attack
-[3][3/3][Zoe]Normal attack
-[4][1/3][Olaf]Attack damage boosted: 75.0
-[5][2/3][Olaf]Attack damage boosted: 85.0
-[6][3/3][Olaf]Attack damage boosted: 95.0
-[7][1/3][Zoe]Normal attack
-[8][2/3][Zoe]Normal attack
-[9][3/3][Zoe]Normal attack
-[10][1/3][Olaf]Normal attack
-[11][2/3][Olaf]Normal attack
-[12][3/3][Olaf]Normal attack
-[13][1/3][Zoe]Normal attack
-[14][2/3][Zoe]Normal attack is LUCKY MOVE!
-[15][3/3][Zoe]Missed move.
-[16][1/3][Olaf]Normal attack
-[17][2/3][Olaf]Missed move.
-[18][3/3][Olaf]Normal attack
-[19][1/3][Zoe]Normal attack
-[20][2/3][Zoe]Missed move.
-[21][3/3][Zoe]Normal attack
-[22][1/3][Olaf]Normal attack
-[23][2/3][Olaf]Normal attack
-[24][3/3][Olaf]Normal attack
-[25][1/3][Zoe]Normal attack
-[26][2/3][Zoe]Normal attack
-[27][3/3][Zoe]Normal attack
-[28][1/3][Olaf]Normal attack
-[Zoe]Died... [Olaf]is a WINNER 
-TOTAL GAMES: [3]
-[1]Score: 2
-[2]Score: 1
+[Hwei] vs [Garen]
+[Garen]Died... [Hwei]is a WINNER 
+=================================================
+GAME NUMBER 4
+=================================================
+[Hwei] vs [Kha Zix]
+[1][1/3][Hwei]Normal attack
+[2][2/3][Hwei]Normal attack
+[3][3/3][Hwei]Normal attack
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Malphite]
+[1][1/3][Lee sin]Missed move.
+[2][2/3][Lee sin]Normal attack
+[3][3/3][Lee sin]Normal attack
+[4][1/3][Malphite]Normal attack
+[5][2/3][Malphite]Normal attack
+[6][3/3][Malphite]Missed move.
+[7][1/3][Lee sin]Normal attack
+[8][2/3][Lee sin]Normal attack
+[9][3/3][Lee sin]Normal attack
+[Malphite]Died... [Lee sin]is a WINNER 
+=================================================
+GAME NUMBER 1
+=================================================
+[Garen] vs [Kha Zix]
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Kha Zix]
+[1][1/3][Kha Zix]Tour point added.
+=================================================
+GAME NUMBER 1
+=================================================
+[Garen] vs [Kha Zix]
+[1][1/3][Kha Zix]Physical damage dealt: 246,00
+[2][2/3][Kha Zix]Physical damage dealt: 131,20
+[3][3/3][Kha Zix]Physical damage dealt: 131,20
+[4][1/3][Garen]Normal attack
+[5][2/3][Garen]Normal attack
+[6][3/3][Garen]Normal attack
+[7][1/3][Kha Zix]Normal attack
+[8][2/3][Kha Zix]Normal attack
+[9][3/3][Kha Zix]Normal attack
+[10][1/3][Garen]Normal attack
+[11][2/3][Garen]Normal attack
+[12][3/3][Garen]Normal attack
+[13][1/3][Kha Zix]Normal attack
+[14][2/3][Kha Zix]Normal attack
+[15][3/3][Kha Zix]Normal attack
+[Garen]Died... [Kha Zix]is a WINNER 
+=================================================
+GAME NUMBER 2
+=================================================
+[Lux] vs [Lee sin]
+[0][0/3] Lee sin is losing tour caused by range difference.1 [Lux] ITS YOUR TURN!
+[Lux]Died... [Lee sin]is a WINNER 
+TOTAL GAMES: [0]
+[1]Score: 0
+[2]Score: 2
 Winner table:
-[Lux] wins [1].
-[Olaf] wins [2].
+[Lee sin] wins [1].
+[Kha Zix] wins [1].
+=================================================
+GAME NUMBER 1
+=================================================
+GAME NUMBER 1
+=================================================
+[Darius] vs [Malphite]
+[1][1/3][Darius]Normal attack
+[2][2/3][Darius]Normal attack
+[3][3/3][Darius]Normal attack
+[4][1/3][Malphite]Normal attack
+[5][2/3][Malphite]Normal attack
+[6][3/3][Malphite]Normal attack
+[7][1/3][Darius]Missed move.
+[8][2/3][Darius]Normal attack
+[9][3/3][Darius]Normal attack
+[10][1/3][Malphite]Normal attack
+[11][2/3][Malphite]Normal attack
+[12][3/3][Malphite]Normal attack
+[13][1/3][Darius]Missed move.
+[14][2/3][Darius]Normal attack
+[15][3/3][Darius]Normal attack
+[16][1/3][Malphite]Normal attack
+[17][2/3][Malphite]Normal attack
+[18][3/3][Malphite]Normal attack
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Darius]
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Garen]
+[1][1/3][Lee sin]Missed move.
+[2][2/3][Lee sin]Normal attack
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Hwei]
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Garen]
+[1][1/3][Garen]Normal attack
+[2][2/3][Garen]Normal attack
+[3][3/3][Garen]Normal attack
+[4][1/3][Lee sin]Normal attack
+[5][2/3][Lee sin]Missed move.
+[6][3/3][Lee sin]Normal attack
+[7][1/3][Garen]Normal attack
+[8][2/3][Garen]Normal attack
+[9][3/3][Garen]Normal attack
+[10][1/3][Lee sin]Normal attack
+[11][2/3][Lee sin]Normal attack
+[12][3/3][Lee sin]Normal attack
+[13][1/3][Garen]Normal attack
+[14][2/3][Garen]Normal attack
+[15][3/3][Garen]Normal attack
+[16][1/3][Lee sin]Attack damage boosted: 75.0
+[17][2/3][Lee sin]Attack damage boosted: 85.0
+[18][3/3][Lee sin]Normal attack
+[19][1/3][Garen]DOUBLE ATTACK!
+[20][2/3][Garen]DOUBLE ATTACK!
+[21][3/3][Garen]Normal attack
+[22][1/3][Lee sin]Tour point added.
+[23][2/3][Lee sin]Normal attack
+[24][3/3][Lee sin]Normal attack
+[24][0/3] Garen is losing tour caused by range difference.olek [Lee sin] ITS YOUR TURN!
+[25][1/3][Lee sin]Tour point added.
+[26][2/3][Lee sin]Normal attack
+[27][3/3][Lee sin]Normal attack
+[27][0/3] Garen is losing tour caused by range difference.olek [Lee sin] ITS YOUR TURN!
+[28][1/3][Lee sin]Healed: 134,40
+[29][2/3][Lee sin]Healed: 134,40
+[30][3/3][Lee sin]Healed: 134,40
+[31][1/3][Garen]Normal attack
+[32][2/3][Garen]Normal attack
+[33][3/3][Garen]Normal attack
+[34][1/3][Lee sin]Missed move.
+[35][2/3][Lee sin]Missed move.
+[36][3/3][Lee sin]Normal attack
+[37][1/3][Garen]Normal attack
+[38][2/3][Garen]Normal attack
+[39][3/3][Garen]Normal attack
+[40][1/3][Lee sin]Normal attack
+[41][2/3][Lee sin]Normal attack
+[42][3/3][Lee sin]Normal attack
+[43][1/3][Garen]Normal attack
+[44][2/3][Garen]Normal attack
+[45][3/3][Garen]Missed move.
+[46][1/3][Lee sin]Normal attack
+[47][2/3][Lee sin]Normal attack
+[Garen]Died... [Lee sin]is a WINNER 
+=================================================
+GAME NUMBER 2
+=================================================
+[Hwei] vs [Kha Zix]
+[1][1/3][Garen]Normal attack
+[2][2/3][Garen]Normal attack
+[3][3/3][Garen]Normal attack
+[3][0/3] Kha Zix is losing tour caused by range difference.molek [Hwei] ITS YOUR TURN!
+[4][1/3][Hwei]Normal attack
+[5][2/3][Hwei]Normal attack
+[Hwei]Died... [Kha Zix]is a WINNER 

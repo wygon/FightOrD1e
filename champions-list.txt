@@ -1,1 +1,0 @@
-FIGHTERS:;Lee sin;Darius;Olaf;Garen;;TANKS:;Singed;Malphite;Rammus;Dr.Mundo;;MAGES:;Lux;Soraka;Zoe

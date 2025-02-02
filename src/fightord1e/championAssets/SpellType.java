@@ -4,6 +4,7 @@ public enum SpellType {
     LIFESTEAL("LIFESTEAL"),
     THORNS("THORNS"),
     LUCK("LUCK"),
+    CRIT("CRIT"),
     OFF("NULL");
 
     private final String name;

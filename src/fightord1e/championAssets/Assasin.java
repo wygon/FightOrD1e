@@ -1,14 +1,14 @@
 package fightord1e.championAssets;
 
-public class Mage extends Champion {
-
-    public Mage(String name, double healthPoints, double attackDamage, double magicDamage, double physicalResist, double magicResist, int distancePoint, Ability[] abilities) {
+public class Assasin extends Mage{
+    
+    public Assasin(String name, double healthPoints, double attackDamage, double magicDamage, double physicalResist, double magicResist, int distancePoint, Ability[] abilities) {
         super(name, healthPoints, attackDamage, magicDamage, physicalResist, magicResist, distancePoint, abilities);
-        this.specialSpellType = SpellType.LUCK;
+        this.specialSpellType = SpellType.CRIT;
     }
 
-    public Mage() {
-        this.specialSpellType = SpellType.LUCK;
+    public Assasin() {
+        this.specialSpellType = SpellType.CRIT;
     }
 
     @Override
@@ -35,4 +35,5 @@ public class Mage extends Champion {
     public void setSpecialSpellType(SpellType specialSpellType) {
         this.specialSpellType = specialSpellType;
     }
+
 }

@@ -1,6 +1,8 @@
 //Szymon Wygoński
 package fightord1e.engine;
 
+import textManagement.Loggers;
+
 public class StatisticTable {
 
     private Player player1;
@@ -41,8 +43,8 @@ public class StatisticTable {
     }
 
     public void displayBattleStatistics() {
-        System.out.println("[" + tm.getCurrentChampion().getName() + "] " + tm.getCurrentChampion().lessStats());
-        System.out.println("[" + tm.getNextChampion().getName() + "] " + tm.getNextChampion().lessStats());
+        Loggers.logMessage("[" + tm.getCurrentChampion().getName() + "] " + tm.getCurrentChampion().lessStats(), false, true);
+        Loggers.logMessage("[" + tm.getNextChampion().getName() + "] " + tm.getNextChampion().lessStats(), false, true);
     }
 
 }

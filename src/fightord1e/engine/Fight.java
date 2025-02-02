@@ -4,8 +4,9 @@ package fightord1e.engine;
 import fightord1e.championAssets.Ability;
 import fightord1e.championAssets.Champion;
 import java.util.Scanner;
+import textManagement.Loggers;
 
-public class Fight implements GameActions{
+public class Fight implements GameActions {
 
     private final TurnManager tm;
     private final StatisticTable st;
@@ -16,6 +17,7 @@ public class Fight implements GameActions{
         this.tm = tm;
         this.st = st;
     }
+
     @Override
     public void start() {
         tm.setTotalMovesCount(0);
@@ -24,105 +26,72 @@ public class Fight implements GameActions{
             tm.setTourPoint(0);
             tm.effectsManagement();
             tm.rangeCheck();
-            System.out.println("[" + tm.getCurrentPlayer().getName() + "][" + tm.getCurrentChampion().getName() + "] ITS YOUR TURN!");
+            Champion ally = tm.getCurrentChampion();
+            Champion enemy = tm.getNextChampion();
+            Loggers.logMessage("[" + tm.getCurrentPlayer().getName() + "][" + ally.getName() + "] ITS YOUR TURN!", false, true);
             while (!tm.isGameOver() && tm.getTourPoint() <= 2) {
-                String hp1 = String.format("%.2f", tm.getCurrentChampion().getHP());
-                String hp2 = String.format("%.2f", tm.getNextChampion().getHP());
-                System.out.println(tm.getCurrentChampion().getName() + " hp: " + hp1 + "\n"
-                        + tm.getNextChampion().getName() + " hp: " + hp2);
-                System.out.println("\n\nMove: " + (tm.getTourPoint() + 1) + "/3"
-                        + "\n[1]Attack");
-                //CO TO JEST DO PANA WAFLA
-                for (int i = 0; i < tm.getCurrentChampion().getAbilities().length; i++) {
-                    System.out.print("[" + (i + 2) + "]" + tm.getCurrentChampion().getAbilities()[i].getName() + " [Value " + tm.getCurrentChampion().getAbilities()[i].getValue() + "]" + "[Uses " + tm.getCurrentChampion().getAbilities()[i].getUsesLeft() + "]\n");
+                String hp1 = String.format("%.2f", ally.getHP());
+                String hp2 = String.format("%.2f", enemy.getHP());
+                Loggers.logMessage(
+                        ally.getName() + " hp: " + hp1 + "\n"
+                        + enemy.getName() + " hp: " + hp2 + "\n\n"
+                        + "Move: " + (tm.getTourPoint() + 1) + "/3\n"
+                        + "[1]Attack", false, true);
+                int i = 0;
+                for (Ability a : ally.getAbilities()) {
+                    Loggers.logMessage("[" + (i++ + 2) + "]" + a.getName() + " [Value " + a.getValue() + "]" + "[Uses " + a.getUsesLeft() + "]", false, true);
                 }
-                System.out.println("""
+                Loggers.logMessage("""
                                 [10]See stats
                                 [99]End move
-                                [0]Wyczysc""");
-                wybor = input.nextInt();
+                                [135]Forfeit
+                                [0]Wyczysc""", false, true);
+                wybor = Loggers.choiceValidator(input);
                 switch (wybor) {
                     case 1:
                         tm.addTourPoint(1);
-                        tm.useAbility(new Ability("Auto attack", "auto attack", tm.getCurrentChampion().getAttackDamage(), "aa", 112));
+                        tm.useAbility(new Ability("Auto attack", "auto attack", ally.getAttackDamage(), "aa", 112));
                         break;
                     case 2:
-                        if (tm.getCurrentChampion().getAbilities().length >= 1) {
-                            if (tm.getCurrentChampion().getAbilities()[0].getUsesLeft() > 0) {
-                                tm.addTourPoint(1);
-                            }
-                            tm.useAbility(tm.getCurrentChampion().getAbilities()[0]);
-                        } else {
-                            System.out.println(tm.getCurrentChampion().getName() + " does not have 2 abilities!");
-                        }
-                        break;
                     case 3:
-                        if (tm.getCurrentChampion().getAbilities().length >= 2) {
-                            if (tm.getCurrentChampion().getAbilities()[1].getUsesLeft() > 0) {
-                                tm.addTourPoint(1);
-                            }
-                            tm.useAbility(tm.getCurrentChampion().getAbilities()[1]);
-                        } else {
-                            System.out.println(tm.getCurrentChampion().getName() + " does not have 3 abilities!");
-                        }
-                        break;
                     case 4:
-                        if (tm.getCurrentChampion().getAbilities().length >= 3) {
-                            if (tm.getCurrentChampion().getAbilities()[2].getUsesLeft() > 0) {
-                                tm.addTourPoint(1);
-                            }
-                            tm.useAbility(tm.getCurrentChampion().getAbilities()[2]);
-                        } else {
-                            System.out.println(tm.getCurrentChampion().getName() + " does not have 4 abilities!");
-                        }
-                        break;
                     case 5:
-                        if (tm.getCurrentChampion().getAbilities().length >= 4) {
-                            if (tm.getCurrentChampion().getAbilities()[3].getUsesLeft() > 0) {
-                                tm.addTourPoint(1);
-                            }
-                            tm.useAbility(tm.getCurrentChampion().getAbilities()[3]);
-                        } else {
-                            System.out.println(tm.getCurrentChampion().getName() + " does not have 5 abilities!");
-                        }
-                        break;
                     case 6:
-                        if (tm.getCurrentChampion().getAbilities().length >= 5) {
-                            if (tm.getCurrentChampion().getAbilities()[4].getUsesLeft() > 0) {
-                                tm.addTourPoint(1);
-                            }
-                            tm.useAbility(tm.getCurrentChampion().getAbilities()[4]);
-                        } else {
-                            System.out.println(tm.getCurrentChampion().getName() + " does not have 6 abilities!");
-                        }
-                        break;
                     case 7:
-                        if (tm.getCurrentChampion().getAbilities().length >= 6) {
-                            if (tm.getCurrentChampion().getAbilities()[5].getUsesLeft() > 0) {
+                        int abilityIndex = wybor - 2;
+                        if (ally.getAbilities().length > abilityIndex) {
+                            Ability ability = ally.getAbilities()[abilityIndex];
+                            if (ability.getUsesLeft() > 0) {
                                 tm.addTourPoint(1);
+                                tm.useAbility(ability);
                             }
-                            tm.useAbility(tm.getCurrentChampion().getAbilities()[6]);
+                            else
+                                Loggers.logMessage("Ability " + ability.getName() + " has no uses left!", false, true);
                         } else {
-                            System.out.println(tm.getCurrentChampion().getName() + " does not have 7 abilities!");
+                            Loggers.logMessage(ally.getName() + " does not have " + (abilityIndex + 2) + " abilities!", false, true);
                         }
                         break;
                     case 10:
-                        System.out.println(tm.getCurrentChampion().lessStats());
+                        System.out.println(ally.lessStats());
                     case 99:
                         tm.setTourPoint(3);
                         break;
+                    case 135:
+                        ally.setHP(0);
                     case 0:
-                        clearScreen();
+                        Loggers.clearScreen();
                         break;
                     default:
+                        Loggers.logMessage("Invalid choice!", false, true);
                         break;
                 }
-                TurnManager.logMessage("=================================================", false, true);
+                Loggers.logMessage("=================================================", false, true);
             }
             tm.endTurn();
         } while (!tm.isGameOver());
         end();
     }
+
     @Override
     public void end() {
         st.displayBattleStatistics();
@@ -140,7 +109,7 @@ public class Fight implements GameActions{
             mess = "[ALMOST IMPOSSIBLE]TIE[" + tm.getNextChampion().getName() + "] and [" + tm.getCurrentChampion().getName() + "]DIED!";
         }
         if (!mess.equals("")) {
-            TurnManager.logMessage(mess, true, true);
+            Loggers.logMessage(mess, true, true);
         }
     }
 
@@ -150,11 +119,5 @@ public class Fight implements GameActions{
 
     public Champion getWinner() {
         return winner;
-    }
-
-    public static void clearScreen() {
-        //there should be console cleaing function
-        //simmilar to windows cmd 'system("cls");'
-        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\n");
     }
 }
