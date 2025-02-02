@@ -1,0 +1,12 @@
+Lee sin,750.0,65.0,20.0,17.0,15.0,0;Ad boost,Increase your attack damage to end fight,10.0,boostad,5/Revitalize,Gives you back described amount of hp.,70.0,boosthp,3/KICK,Kicking your oponent to gain range.,1.0,turn,2;FIGHTER;<
+Darius,1000.0,70.0,0.0,20.0,15.0,0;Ad boost,Increase your attack damage to end fight,10.0,boostad,3/Bleeding,Hit enemy gives him bleeding effect till end of fight,50.0,dmgpoison,3/TANKYYYY,Gives you a little amount of resist.,5.0,boostresist,5;FIGHTER;<
+Lux,700.0,40.0,100.0,12.0,15.0,1,;Magic ball,Tons of magic damage hurt go to your enemy,120.0,dmgmd,2/Dark power,Using dark magic hits enormous damage to enemy.,250.0,dmgmd,1/Revitalize,Gives you back described amount of hp.,120.0,boosthp,3;MAGE;<
+Olaf,700.0,65.0,0.0,25.0,15.0,0,;Ad boost,Increase your attack damage to end fight,10.0,boostad,3/LifeSteal - passive,Every attack gives back little amount of hp until end of fight,20.0,lifesteal,111;LIFESTEALER;<
+Garen,1000.0,70.0,0.0,20.0,15.0,0,;Ad boost,Increase your attack damage to end fight,10.0,boostad,3/Power fists,Hit enemy 2 times instead of 1.,2.0,addad2,2/TANKYYYY,Gives you a little amount of resist.,5.0,boostresist,5;FIGHTER;<
+Singed,830.0,50.0,50.0,30.0,30.0,0;Poison,Poisoning your enemy until end of fight,50.0,dmgpoison,3/Run,Run away from your opponent and gain 1 range.,1.0,turn,3;FIGHTER;<
+Malphite,1000.0,50.0,35.0,35.0,5.0,0;Rock+,Gives you a little amount of armor resist.,5.0,boostpr,3/Thorns - passive,Hits back enemy with little % of dealt dmg.,15.0,thorns,112;TANK;<
+Rammus,880.0,60.0,45.0,35.0,35.0,0;Rock+,Gives you a little amount of armor resist.,5.0,boostresist,3/Thorns,Hits back enemy with little % of dealt dmg.,30.0,thorns,5;TANK;<
+Soraka,500.0,40.0,50.0,20.0,20.0,1;Spark!,Spark summon lightning into your enemy face.,70.0,dmgmd,7/Revitalize,Gives you back described amount of hp.,70.0,boosthp,6;MAGE;<
+Zoe,680.0,45.0,105.0,13.0,20.0,0;Boom!,Tons of magic damage hurt go to your enemy,120.0,dmgmd,2/Sleep,Your opponenr fall asleep and gain 1 range.,1.0,turn,3;MAGE;<
+Dr.Mundo,960.0,57.0,30.0,30.0,45.0,0,0;mundo mundo,Every attack gives back little amount of hp for a certain time,20.0,lifesteal,3;LIFESTEALER;<
+IMMUNE, Immune for an poison
