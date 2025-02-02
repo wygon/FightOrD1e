@@ -23,18 +23,19 @@ public class Fight implements GameActions {
         tm.setTotalMovesCount(0);
         do {
             int wybor;
+            Champion ally = tm.getCurrentChampion();
+            Champion enemy = tm.getNextChampion();
             tm.setTourPoint(0);
             tm.effectsManagement();
             tm.rangeCheck();
-            Champion ally = tm.getCurrentChampion();
-            Champion enemy = tm.getNextChampion();
-            Loggers.logMessage("[" + tm.getCurrentPlayer().getName() + "][" + ally.getName() + "] ITS YOUR TURN!", false, true);
+            if(tm.getTourPoint() <= 2)
+                Loggers.logMessage("[" + tm.getCurrentPlayer().getName() + "][" + ally.getName() + "] ITS YOUR TURN!", false, true);
             while (!tm.isGameOver() && tm.getTourPoint() <= 2) {
                 String hp1 = String.format("%.2f", ally.getHP());
                 String hp2 = String.format("%.2f", enemy.getHP());
                 Loggers.logMessage(
-                        ally.getName() + " hp: " + hp1 + "\n"
-                        + enemy.getName() + " hp: " + hp2 + "\n\n"
+                        "[" + ally.getName() + "] hp: " + hp1 + "\n"
+                        + "[" + enemy.getName() + "] hp: " + hp2 + "\n\n"
                         + "Move: " + (tm.getTourPoint() + 1) + "/3\n"
                         + "[1]Attack", false, true);
                 int i = 0;

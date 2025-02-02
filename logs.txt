@@ -763,3 +763,217 @@ GAME NUMBER 2
 [4][1/3][Hwei]Normal attack
 [5][2/3][Hwei]Normal attack
 [Hwei]Died... [Kha Zix]is a WINNER 
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Singed]
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Singed]
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Singed]
+[1][1/3][Singed]Normal attack
+[2][2/3][Singed]Poison applied to Lee sin
+[3][3/3][Singed]Missed move.
+[PASSIVE][Lee sin] poisoned damage -53.125
+[4][1/3][Lee sin]Normal attack
+[5][2/3][Lee sin]Normal attack
+[6][3/3][Lee sin]Normal attack
+[7][1/3][Singed]Normal attack
+[8][2/3][Singed]Normal attack
+[9][3/3][Singed]Normal attack
+[PASSIVE][Lee sin] poisoned damage -53.125
+[10][1/3][Lee sin]Missed move.
+[11][2/3][Lee sin]Normal attack
+[12][3/3][Lee sin]Normal attack
+[13][1/3][Singed]Normal attack
+[14][2/3][Singed]Normal attack
+[15][3/3][Singed]Normal attack
+[PASSIVE][Singed] poison ended
+[16][1/3][Lee sin]Normal attack
+[17][2/3][Lee sin]Normal attack
+[18][3/3][Lee sin]Normal attack
+[19][1/3][Singed]Normal attack
+[20][2/3][Singed]Normal attack
+[21][3/3][Singed]Missed move.
+[22][1/3][Lee sin]Normal attack
+[23][2/3][Lee sin]Missed move.
+[24][3/3][Lee sin]Normal attack
+[25][1/3][Singed]Normal attack
+[26][2/3][Singed]Missed move.
+[27][3/3][Singed]Normal attack
+[28][1/3][Lee sin]Normal attack
+[29][2/3][Lee sin]Normal attack
+[30][3/3][Lee sin]Normal attack
+[31][1/3][Singed]Normal attack
+[Singed]Died... [Lee sin]is a WINNER 
+=================================================
+GAME NUMBER 2
+=================================================
+[Malphite] vs [Rammus]
+[1][1/3][Rammus]Normal attack
+[2][2/3][Rammus]Normal attack
+[3][3/3][Rammus]Missed move.
+[4][1/3][Malphite]Normal attack
+[5][2/3][Malphite]Normal attack
+[6][3/3][Malphite]Normal attack
+[Rammus]Died... [Malphite]is a WINNER 
+=================================================
+GAME NUMBER 3
+=================================================
+[Lux] vs [Malphite]
+[0][0/3] Malphite is losing tour caused by range difference.sigma [Lux] ITS YOUR TURN!
+[1][1/3][Lux]Normal attack
+[2][2/3][Lux]Normal attack
+[3][3/3][Lux]Normal attack
+[4][1/3][Malphite]Normal attack
+[5][2/3][Malphite]Normal attack
+[6][3/3][Malphite]Normal attack
+[7][1/3][Lux]Magic damage dealt: 171,00
+[8][2/3][Lux]Magic damage dealt: 356,25
+[9][3/3][Lux]Magic damage dealt: 171,00
+[10][1/3][Malphite]Normal attack
+[11][2/3][Malphite]Missed move.
+[12][3/3][Malphite]Normal attack
+[13][1/3][Lux]Normal attack
+[14][2/3][Lux]Normal attack
+[15][3/3][Lux]Normal attack
+[Malphite]Died... [Lux]is a WINNER 
+=================================================
+GAME NUMBER 4
+=================================================
+[Olaf] vs [Hwei]
+[1][1/3][Lux]Missed move.
+[2][2/3][Lux]Attack damage boosted: 50.0
+[3][3/3][Lux]Lifesteal turned ON!
+[4][1/3][Hwei]Attack damage boosted: 55.0
+[5][2/3][Hwei]Magic damage dealt: 86,27
+[6][3/3][Hwei]Tour point added.
+[6][0/3] Olaf is losing tour caused by range difference.boy [Hwei] ITS YOUR TURN!
+[7][1/3][Hwei]Missed move.
+[8][2/3][Hwei]Normal attack
+[9][3/3][Hwei]Normal attack
+[9][0/3] Olaf is losing tour caused by range difference.boy [Hwei] ITS YOUR TURN!
+[10][1/3][Hwei]Normal attack
+[11][2/3][Hwei]Normal attack
+[12][3/3][Hwei]Normal attack
+[13][1/3][Olaf]Normal attack
+[14][2/3][Olaf]Normal attack
+[15][3/3][Olaf]Normal attack
+[16][1/3][Hwei]Normal attack
+[17][2/3][Hwei]Normal attack
+[18][3/3][Hwei]Normal attack
+[Olaf]Died... [Hwei]is a WINNER 
+=================================================
+GAME NUMBER 1
+=================================================
+[Singed] vs [Lee sin]
+[1][1/3][Lee sin]Normal attack
+[2][2/3][Lee sin]Normal attack
+[3][3/3][Lee sin]Normal attack
+[4][1/3][Singed]Tour point added.
+[5][2/3][Singed]Normal attack
+[6][3/3][Singed]Normal attack
+[6][0/3] Lee sin is losing tour caused by range difference.pierwszy [Singed] ITS YOUR TURN!
+[7][1/3][Singed]Normal attack
+[8][2/3][Singed]Normal attack
+[9][3/3][Singed]Missed move.
+[10][1/3][Lee sin]Normal attack
+[11][2/3][Lee sin]Normal attack
+[12][3/3][Lee sin]Normal attack
+[13][1/3][Singed]Normal attack
+[14][2/3][Singed]Missed move.
+[15][3/3][Singed]Normal attack
+[16][1/3][Lee sin]Normal attack
+[17][2/3][Lee sin]Normal attack
+[18][3/3][Lee sin]Normal attack
+[19][1/3][Singed]Tour point added.
+[20][2/3][Singed]Missed move.
+[21][3/3][Singed]Normal attack
+[21][0/3] Lee sin is losing tour caused by range difference.pierwszy [Singed] ITS YOUR TURN!
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Singed]
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Singed]
+[1][1/3][Lee sin]Tour point added.
+[2][2/3][Lee sin]Normal attack
+[3][3/3][Lee sin]Normal attack
+[3][0/3] Singed is losing tour caused by range difference.pierwszy [Lee sin] ITS YOUR TURN!
+[4][1/3][Lee sin]Normal attack
+[5][2/3][Lee sin]Normal attack
+[6][3/3][Lee sin]Normal attack
+[7][1/3][Singed]Normal attack
+[8][2/3][Singed]Missed move.
+[9][3/3][Singed]Tour point added.
+[9][0/3] Lee sin is losing tour caused by range difference.drugi [Singed] ITS YOUR TURN!
+[10][1/3][Singed]Normal attack
+[11][2/3][Singed]Normal attack
+[12][3/3][Singed]Normal attack
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Singed]
+[1][1/3][Singed]Normal attack
+[2][2/3][Singed]Normal attack
+[3][3/3][Singed]Tour point added.
+[3][0/3] Lee sin is losing tour caused by range difference.boy [Singed] ITS YOUR TURN!
+[4][1/3][Singed]Normal attack
+[5][2/3][Singed]Normal attack
+[6][3/3][Singed]Normal attack
+[7][1/3][Lee sin]Normal attack
+[8][2/3][Lee sin]Normal attack
+[9][3/3][Lee sin]Tour point added.
+[9][0/3] Singed is losing tour caused by range difference.sigma [Lee sin] ITS YOUR TURN!
+[10][1/3][Lee sin]Normal attack
+[11][2/3][Lee sin]Normal attack
+[12][3/3][Lee sin]Normal attack
+[13][1/3][Singed]Missed move.
+[14][2/3][Singed]Missed move.
+[15][3/3][Singed]Normal attack
+[16][1/3][Lee sin]Normal attack
+[17][2/3][Lee sin]Normal attack
+[18][3/3][Lee sin]Normal attack
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Singed]
+[1][1/3][Lee sin]Tour point added.
+[2][2/3][Lee sin]Normal attack
+[3][3/3][Lee sin]Normal attack
+[3][0/3] Singed is losing tour caused by range difference.1 [Lee sin] ITS YOUR TURN!
+=================================================
+GAME NUMBER 1
+=================================================
+[Lee sin] vs [Singed]
+[1][1/3][Singed]Normal attack
+[2][2/3][Singed]Normal attack
+[3][3/3][Singed]Tour point added.
+[3][0/3] Lee sin is losing tour caused by range difference.2 [Singed] ITS YOUR TURN!
+[4][1/3][Singed]Normal attack
+[5][2/3][Singed]Normal attack
+[6][3/3][Singed]Normal attack
+[7][1/3][Lee sin]Normal attack
+[8][2/3][Lee sin]Normal attack
+[9][3/3][Lee sin]Tour point added.
+[9][0/3] Singed is losing tour caused by range difference.1 [Lee sin] ITS YOUR TURN!
+[10][1/3][Lee sin]Normal attack
+[11][2/3][Lee sin]Missed move.
+[12][3/3][Lee sin]Normal attack
+[13][1/3][Singed]Normal attack
+[14][2/3][Singed]Normal attack
+[15][3/3][Singed]Missed move.
+[16][1/3][Lee sin]Normal attack
+[17][2/3][Lee sin]Normal attack
+[18][3/3][Lee sin]Normal attack
+[19][1/3][Singed]Normal attack
+[20][2/3][Singed]Normal attack
+[21][3/3][Singed]Normal attack
+[22][1/3][Lee sin]Normal attack
+[Lee sin]Died... [Singed]is a WINNER 

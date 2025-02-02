@@ -13,8 +13,6 @@ public class TurnManager {
     private Player np;
     private int tourPoint;
     private int totalMovesCount;
-    private Champion ally;
-    private Champion enemy;
     Random rand = new Random();
 
     public TurnManager(Player player1, Player player2) {
@@ -33,8 +31,6 @@ public class TurnManager {
         Player fakePlayer = np;
         np = cp;
         cp = fakePlayer;
-        ally = getCurrentChampion();
-        enemy = getNextChampion();
     }
 
     public Player whoStart() {
@@ -50,8 +46,8 @@ public class TurnManager {
     @Override
     public String toString() {
         String a = "";
-        a += "\nStats " + getCurrentPlayer().getName() + ": " + ally.toString();
-        a += "\n\nStats " + getNextPlayer().getName() + ": " + enemy.toString();
+        a += "\nStats " + getCurrentPlayer().getName() + ": " + getCurrentChampion().toString();
+        a += "\n\nStats " + getNextPlayer().getName() + ": " + getNextChampion().toString();
         return a;
     }
 
@@ -60,11 +56,11 @@ public class TurnManager {
         if (ability.isAvailable()) {
             double multipilier = 1;
             int unLuckyNumber = 1;
-            String mess = "[" + totalMovesCount + "][" + tourPoint + "/3][" + ally.getName() + "]";
+            String mess = "[" + totalMovesCount + "][" + tourPoint + "/3][" + getCurrentChampion().getName() + "]";
             if (unLuckyNumber == rand.nextInt(10)) {
                 mess += "Missed move.";
             } else {
-                if (ally.getSpecialSpellType() == SpellType.CRIT)
+                if (getCurrentChampion().getSpecialSpellType() == SpellType.CRIT)
                 {
                     if(1 == rand.nextDouble(5))
                     {
@@ -73,34 +69,34 @@ public class TurnManager {
                     }
                 }
                 if (ability.getType().startsWith("aa")) {
-                    enemy.addHP((-((ally.getAttackDamage())) * (1 - enemy.getPhysicalResist() / 70)) * multipilier);
+                    getNextChampion().addHP((-((getCurrentChampion().getAttackDamage())) * (1 - getNextChampion().getPhysicalResist() / 70)) * multipilier);
                     mess += "Normal attack";
                 } else if (ability.getType().startsWith("boost")) {
                     switch (ability.getType()) {
                         case "boostad":
-                            ally.addAttackDamage(ability.getValue() * multipilier);
-                            mess += "Attack damage boosted: " + ally.getAttackDamage() * multipilier;
+                            getCurrentChampion().addAttackDamage(ability.getValue() * multipilier);
+                            mess += "Attack damage boosted: " + getCurrentChampion().getAttackDamage() * multipilier;
                             break;
                         case "boostmd":
-                            ally.addMagicDamage(ability.getValue() * multipilier);
-                            mess += "Magic damage boosted: " + ally.getMagicDamage() * multipilier;
+                            getCurrentChampion().addMagicDamage(ability.getValue() * multipilier);
+                            mess += "Magic damage boosted: " + getCurrentChampion().getMagicDamage() * multipilier;
                             break;
                         case "boostresist":
-                            ally.addPhysicalResist(ability.getValue() * multipilier);
-                            ally.addMagicResist(ability.getValue() * multipilier);
-                            mess += "Physical and magic resist boosted: physical: " + ally.getPhysicalResist() * multipilier + " magic: " + ally.getMagicResist() * multipilier;
+                            getCurrentChampion().addPhysicalResist(ability.getValue() * multipilier);
+                            getCurrentChampion().addMagicResist(ability.getValue() * multipilier);
+                            mess += "Physical and magic resist boosted: physical: " + getCurrentChampion().getPhysicalResist() * multipilier + " magic: " + getCurrentChampion().getMagicResist() * multipilier;
                             break;
                         case "boosthp":
-                            ally.addHP(((ally.getMagicDamage() * 0.003 * ability.getValue()) + ability.getValue()) * multipilier);
-                            mess += "Healed: " + String.format("%.2f", ((ally.getMagicDamage() * 0.003 * ability.getValue()) + ability.getValue()) * multipilier);
+                            getCurrentChampion().addHP(((getCurrentChampion().getMagicDamage() * 0.003 * ability.getValue()) + ability.getValue()) * multipilier);
+                            mess += "Healed: " + String.format("%.2f", ((getCurrentChampion().getMagicDamage() * 0.003 * ability.getValue()) + ability.getValue()) * multipilier);
                             break;
                         case "boostpr":
-                            ally.addPhysicalResist(ability.getValue() * multipilier);
-                            mess += "Physical resist boosted: " + ally.getPhysicalResist() * multipilier;
+                            getCurrentChampion().addPhysicalResist(ability.getValue() * multipilier);
+                            mess += "Physical resist boosted: " + getCurrentChampion().getPhysicalResist() * multipilier;
                             break;
                         case "boostmr":
-                            ally.addMagicResist(ability.getValue() * multipilier);
-                            mess += "Magic resist boosted " + ally.getMagicResist() * multipilier;
+                            getCurrentChampion().addMagicResist(ability.getValue() * multipilier);
+                            mess += "Magic resist boosted " + getCurrentChampion().getMagicResist() * multipilier;
                             break;
                         default:
                             break;
@@ -108,56 +104,56 @@ public class TurnManager {
                 } else if (ability.getType().startsWith("dmg")) {
                     switch (ability.getType()) {
                         case "dmgmd":
-                            enemy.addHP((-(((ally.getMagicDamage() * 0.005 * ability.getValue())) + ability.getValue()) * (1 - enemy.getMagicResist() / 100)) * multipilier);
-                            mess += "Magic damage dealt: " + String.format("%.2f", ((((ally.getMagicDamage() * 0.005 * ability.getValue())) + ability.getValue()) * (1 - enemy.getMagicResist() / 100)) * multipilier);
+                            getNextChampion().addHP((-(((getCurrentChampion().getMagicDamage() * 0.005 * ability.getValue())) + ability.getValue()) * (1 - getNextChampion().getMagicResist() / 100)) * multipilier);
+                            mess += "Magic damage dealt: " + String.format("%.2f", ((((getCurrentChampion().getMagicDamage() * 0.005 * ability.getValue())) + ability.getValue()) * (1 - getNextChampion().getMagicResist() / 100)) * multipilier);
                             break;
                         case "dmgad":
-                            enemy.addHP((-(((ally.getAttackDamage() * 0.01) * ability.getValue()) + ability.getValue()) * (1 - enemy.getPhysicalResist() / 100)) * multipilier);
-                            mess += "Physical damage dealt: " + String.format("%.2f", ((((ally.getAttackDamage() * 0.01) * ability.getValue()) + ability.getValue()) * (1 - enemy.getPhysicalResist() / 100)) * multipilier);
+                            getNextChampion().addHP((-(((getCurrentChampion().getAttackDamage() * 0.01) * ability.getValue()) + ability.getValue()) * (1 - getNextChampion().getPhysicalResist() / 100)) * multipilier);
+                            mess += "Physical damage dealt: " + String.format("%.2f", ((((getCurrentChampion().getAttackDamage() * 0.01) * ability.getValue()) + ability.getValue()) * (1 - getNextChampion().getPhysicalResist() / 100)) * multipilier);
                             break;
                         case "dmgpoison":
-                            enemy.setPoison(true);
-                            enemy.addPoisonDmg((-(((ally.getMagicDamage() * 0.005 * ability.getValue())) + ability.getValue()) * (1 - enemy.getMagicResist() / 100)) * multipilier);
-                            enemy.setPoisonMove(totalMovesCount + 11);
-                            mess += "Poison applied to " + enemy.getName();
+                            getNextChampion().setPoison(true);
+                            getNextChampion().addPoisonDmg((-(((getCurrentChampion().getMagicDamage() * 0.005 * ability.getValue())) + ability.getValue()) * (1 - getNextChampion().getMagicResist() / 100)) * multipilier);
+                            getNextChampion().setPoisonMove(totalMovesCount + 11);
+                            mess += "Poison applied to " + getNextChampion().getName();
                             break;
                         default:
                             break;
                     }
                 } else if (ability.getType().startsWith("add")) {
                     if (ability.getType().equals("addad2")) {
-                        enemy.addHP((-((ally.getAttackDamage()) * ability.getValue()) * (1 - enemy.getPhysicalResist() / 70)) * multipilier);
+                        getNextChampion().addHP((-((getCurrentChampion().getAttackDamage()) * ability.getValue()) * (1 - getNextChampion().getPhysicalResist() / 70)) * multipilier);
                         mess += "DOUBLE ATTACK!";
                     }
                 } else if (ability.getType().startsWith("turn")) {
                     if (ability.getType().equals("turn")) {
-                        ally.addDistancePoint(1);
+                        getCurrentChampion().addDistancePoint(1);
                         mess += "Tour point added.";
                     }
                 } else if (ability.getType().startsWith("lifesteal")) {
                     if (ability.getType().equals("lifesteal")) {
-                        ally.setSpecialSpellType(SpellType.LIFESTEAL);
-                        ally.setSpecialSpellValue(ability.getValue() * multipilier);
+                        getCurrentChampion().setSpecialSpellType(SpellType.LIFESTEAL);
+                        getCurrentChampion().setSpecialSpellValue(ability.getValue() * multipilier);
                         if (ability.getUsesLeft() > 100) {
-                            ally.setSpecialSpellMove(totalMovesCount + 500);
+                            getCurrentChampion().setSpecialSpellMove(totalMovesCount + 500);
                         } else {
-                            ally.setSpecialSpellMove(totalMovesCount + 11);
+                            getCurrentChampion().setSpecialSpellMove(totalMovesCount + 11);
                         }
                         mess += "Lifesteal turned ON!";
                     }
                 } else if (ability.getType().startsWith("thorns")) {
                     if (ability.getType().equals("thorns")) {
-                        ally.setSpecialSpellType(SpellType.THORNS);
-                        ally.setSpecialSpellValue(ability.getValue() * multipilier);
+                        getCurrentChampion().setSpecialSpellType(SpellType.THORNS);
+                        getCurrentChampion().setSpecialSpellValue(ability.getValue() * multipilier);
                         if (ability.getUsesLeft() > 100) {
-                            ally.setSpecialSpellMove(totalMovesCount + 500);
+                            getCurrentChampion().setSpecialSpellMove(totalMovesCount + 500);
                         } else {
-                            ally.setSpecialSpellMove(totalMovesCount + 11);
+                            getCurrentChampion().setSpecialSpellMove(totalMovesCount + 11);
                         }
                         mess += "Thorns turned ON!";
                     }
                 }
-                if (ally.getSpecialSpellType() == SpellType.LUCK) {
+                if (getCurrentChampion().getSpecialSpellType() == SpellType.LUCK) {
                     int luckyNumber = 1;
                     if (luckyNumber == rand.nextInt(5)) {
                         ability.addUsesLeft(1);
@@ -177,41 +173,41 @@ public class TurnManager {
     public void effectsManagement() {
         String mess = "";
         //Poison management
-        if (ally.isPoison()) {
-            if (getTotalMovesCount() >= ally.getPoisonMove()) {
-                ally.setPoison(false);
-                ally.addPoisonDmg(-ally.getPoisonDmg());
-                mess += "[PASSIVE][" + enemy.getName() + "] poison ended";
+        if (getCurrentChampion().isPoison()) {
+            if (getTotalMovesCount() >= getCurrentChampion().getPoisonMove()) {
+                getCurrentChampion().setPoison(false);
+                getCurrentChampion().addPoisonDmg(-getCurrentChampion().getPoisonDmg());
+                mess += "[PASSIVE][" + getNextChampion().getName() + "] poison ended";
             } else {
-                ally.addHP(ally.getPoisonDmg());
-                mess += "[PASSIVE][" + ally.getName() + "] poisoned damage " + ally.getPoisonDmg();
+                getCurrentChampion().addHP(getCurrentChampion().getPoisonDmg());
+                mess += "[PASSIVE][" + getCurrentChampion().getName() + "] poisoned damage " + getCurrentChampion().getPoisonDmg();
             }
         }
         //Lifesteal management
-        if (enemy.getSpecialSpellType() == SpellType.LIFESTEAL) {
+        if (getNextChampion().getSpecialSpellType() == SpellType.LIFESTEAL) {
             if (!mess.equals("")) {
                 mess += "\n";
             }
-            if (getTotalMovesCount() >= enemy.getSpecialSpellMove()) {
-                enemy.setSpecialSpellType(SpellType.OFF);
-                mess += "[PASSIVE][" + ally.getName() + "]Lifesteal ended";
+            if (getTotalMovesCount() >= getNextChampion().getSpecialSpellMove()) {
+                getNextChampion().setSpecialSpellType(SpellType.OFF);
+                mess += "[PASSIVE][" + getCurrentChampion().getName() + "]Lifesteal ended";
             } else {
-                enemy.addHP((ally.getLastRoundHP() - ally.getHP()) * (enemy.getSpecialSpellValue()) * 0.02);
-                mess += "[PASSIVE][" + enemy.getName() + "]Healed for " + String.format("%.2f", (ally.getLastRoundHP() - ally.getHP()) * (enemy.getSpecialSpellValue()) * 0.02);
+                getNextChampion().addHP((getCurrentChampion().getLastRoundHP() - getCurrentChampion().getHP()) * (getNextChampion().getSpecialSpellValue()) * 0.02);
+                mess += "[PASSIVE][" + getNextChampion().getName() + "]Healed for " + String.format("%.2f", (getCurrentChampion().getLastRoundHP() - getCurrentChampion().getHP()) * (getNextChampion().getSpecialSpellValue()) * 0.02);
             }
         }
         //Thorns management
-        if (ally.getSpecialSpellType() == SpellType.THORNS) {
+        if (getCurrentChampion().getSpecialSpellType() == SpellType.THORNS) {
             if (!mess.equals("")) {
                 mess += "\n";
             }
-            if (getTotalMovesCount() >= ally.getSpecialSpellMove()) {
-                ally.setSpecialSpellType(SpellType.OFF);
-                ally.setSpecialSpellValue(0);
-                mess += "[PASSIVE]" + "Thorns from [" + ally.getName() + "] to [" + enemy.getName() + "] ended.";
+            if (getTotalMovesCount() >= getCurrentChampion().getSpecialSpellMove()) {
+                getCurrentChampion().setSpecialSpellType(SpellType.OFF);
+                getCurrentChampion().setSpecialSpellValue(0);
+                mess += "[PASSIVE]" + "Thorns from [" + getCurrentChampion().getName() + "] to [" + getNextChampion().getName() + "] ended.";
             } else {
-                enemy.addHP(-(ally.getLastRoundHP() - ally.getHP()) * (ally.getSpecialSpellValue() * 0.015));
-                mess += "[PASSIVE]Thorns hit [" + enemy.getName() + "] for " + String.format("%.2f", (ally.getLastRoundHP() - ally.getHP()) * (ally.getSpecialSpellValue() * 0.015));
+                getNextChampion().addHP(-(getCurrentChampion().getLastRoundHP() - getCurrentChampion().getHP()) * (getCurrentChampion().getSpecialSpellValue() * 0.015));
+                mess += "[PASSIVE]Thorns hit [" + getNextChampion().getName() + "] for " + String.format("%.2f", (getCurrentChampion().getLastRoundHP() - getCurrentChampion().getHP()) * (getCurrentChampion().getSpecialSpellValue() * 0.015));
             }
         }
         if (!mess.equals("")) {
@@ -224,20 +220,20 @@ public class TurnManager {
     //Checking - if: range is okay to start fight - if not: ending tour
     public void rangeCheck() {
         //Decreasing range - if: champion is far away
-        if (ally.getDistancePoint() < enemy.getDistancePoint()) {
-            enemy.addDistancePoint(-1);
+        if (getCurrentChampion().getDistancePoint() < getNextChampion().getDistancePoint()) {
+            getNextChampion().addDistancePoint(-1);
 //            effectsManagement();
-            String mess = "[" + getTotalMovesCount() + "][" + getTourPoint() + "/3] " + ally.getName() + " is losing tour caused by range difference.";
+            String mess = "[" + getTotalMovesCount() + "][" + getTourPoint() + "/3] " + getCurrentChampion().getName() + " is losing tour caused by range difference.";
             Loggers.logMessage(mess + "\n=================================================", false, true);
-            mess += getNextPlayer().getName() + " [" + enemy.getName() + "] ITS YOUR TURN!";
+            mess += getNextPlayer().getName() + " [" + getNextChampion().getName() + "] ITS YOUR TURN!";
             Loggers.logMessage(mess, true, false);
-            endTurn();
+            setTourPoint(3);
         }
     }
 
     //Function endTurn() is responsible for manage things after single player tour
     public void endTurn() {
-        ally.setLastRoundHP(ally.getHP());
+        getCurrentChampion().setLastRoundHP(getCurrentChampion().getHP());
         swapPlayers();
     }
 
