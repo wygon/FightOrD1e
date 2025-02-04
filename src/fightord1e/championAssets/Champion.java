@@ -36,7 +36,7 @@ public abstract class Champion {
 
     public Champion() {
     }
-
+    //Printing less stats for an champion and also abilities left.S
     public String lessStats() {
         String ls = "";
         ls += "\nHP:  " + healthPoints;
@@ -48,7 +48,7 @@ public abstract class Champion {
         }
         return ls;
     }
-
+    //Printing full list of abilities
     public String printAbilities() {
         String abstr = "";
         for (Ability ability : abilities) {

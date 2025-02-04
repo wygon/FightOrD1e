@@ -20,13 +20,16 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 import textManagement.Loggers;
 
+import java.util.function.Function;
+
 public class Game implements GameActions {
 
     private final TurnManager tm;
     private Fight fight;
     private final StatisticTable statisticTable;
-    public ArrayList<Champion> championsList;
-    public Map<String, Integer> fightWinners;
+    private ArrayList<Champion> championsList;
+    private Map<String, Integer> fightWinners;
+    private final String CHAMPIONS_SETTINGS = "champions.settings";
 
     public Game(Player player1, Player player2, Map<String, Integer> fightWinners) {
         this.tm = new TurnManager(player1, player2);
@@ -43,14 +46,15 @@ public class Game implements GameActions {
 
     @Override
     public void start() {
-        //tm.readFile("champions-list.txt", false, true);
+        Loggers.clearScreen();
         championPick();
         fight = new Fight(tm, statisticTable);
         Loggers.logMessage("=================================================\n[" + tm.getCurrentChampion().getName() + "] vs [" + tm.getNextChampion().getName() + "]", true, false);
+        Loggers.clearScreen();
         Loggers.logMessage("Champions description: " + tm.getCurrentChampion() + tm.getCurrentChampion().printAbilities() + tm.getNextChampion() + tm.getNextChampion().printAbilities(), false, true);
         tm.whoStart();
-        Loggers.logMessage("Fight start: \n" + tm.getCurrentPlayer().getName() + " with his champion " + tm.getCurrentChampion().getName(), false, true);
-        Loggers.logMessage("His opponent is : \n" + tm.getNextPlayer().getName() + " with his champion " + tm.getNextChampion().getName(), false, true);
+        Loggers.logMessage("Fight start: \n[" + tm.getCurrentPlayer().getName() + "] with his champion [" + tm.getCurrentChampion().getName() + "]", false, true);
+        Loggers.logMessage("His opponent is : \n[" + tm.getNextPlayer().getName() + "] with his champion [" + tm.getNextChampion().getName() + "]", false, true);
         fight.start();
     }
 
@@ -63,6 +67,7 @@ public class Game implements GameActions {
                    [2]NO""", false, true);
     }
 
+    //Resetting champion list - for example while our champion dies and we want to make revange using the same one
     public void resetChampionList() {
         if (!championsList.isEmpty()) {
             championsList.clear();
@@ -72,10 +77,10 @@ public class Game implements GameActions {
         Loggers.logMessage("Champions reseted", false, true);
     }
 
+    //Full applying champion to list method
     public void applyChampionsList() {
-//        Champion champion = null;
         try {
-            BufferedReader reader = new BufferedReader(new FileReader("champions.txt"));
+            BufferedReader reader = new BufferedReader(new FileReader(CHAMPIONS_SETTINGS));
             String line = reader.readLine();
             while (line != null) {
                 String[] bigParts = line.split(";");
@@ -106,6 +111,47 @@ public class Game implements GameActions {
         }
     }
 
+    //Display champions in specyfied condition
+    public void showChampByValue(Function<Champion, Double> valueType, int value, String mess) {
+        Loggers.clearScreen();
+        championsList.forEach(champ -> {
+            double dmg = valueType.apply(champ);
+            if (dmg > value) {
+                Loggers.logMessage("[" + champ.getName() + "] [" + dmg + "] " + mess, false, true);
+            }
+        });
+    }
+
+    //Display list of champions name
+    public void showChampions() {
+        Loggers.clearScreen();
+        championsList.forEach(champ -> {
+            Loggers.logMessage("[" + champ.getName() + "]", false, true);
+        });
+    }
+    public void displaySpecifiedChampionStats(Scanner input)
+    {
+        Loggers.clearScreen();
+        final int[] i={1};
+        championsList.forEach(champ -> {
+            Loggers.logMessage("[" + i[0]++ + "][" + champ.getName() + "]", false, true);
+        });
+        int interestedChampion = Loggers.choiceValidator(input);
+        //2nd parametr is only for hover
+        interestedChampion = validateChampion(interestedChampion, championsList.size() + 1);
+        Champion iChampion = championsList.get(interestedChampion - 1);
+        Loggers.clearScreen();
+        Loggers.logMessage(iChampion + " \n\nABILITIES" + iChampion.printAbilities(), false, true);
+    }
+    public TurnManager getTM() {
+        return tm;
+    }
+
+    public ArrayList<Champion> getChampionsList() {
+        return championsList;
+    }
+
+    //Configuring champions
     private void configureChampion(Champion champion, String[] parts) {
         champion.setName(parts[0]);
         champion.setHP(Double.parseDouble(parts[1]));
@@ -117,6 +163,7 @@ public class Game implements GameActions {
         champion.setDistancePoint(Integer.parseInt(parts[6]));
     }
 
+    //Applying abilities to champion
     private void configureAbilities(Champion champion, String abilitiesPart) {
         String[] abilityParts = abilitiesPart.split("/");
         Ability[] abilities = new Ability[abilityParts.length];
@@ -126,44 +173,13 @@ public class Game implements GameActions {
         champion.setAbilities(abilities);
     }
 
-    public void showMagicChamp() {
-        championsList.forEach(champ -> {
-            if (champ.getMagicDamage() > 75) {
-                Loggers.logMessage("[" + champ.getName() + "] [" + champ.getMagicDamage() + "] magic damage", false, true);
-            }
-        });
-    }
-
-    public void showPhysicalChamp() {
-        championsList.forEach(champ -> {
-            if (champ.getAttackDamage() > 61) {
-                Loggers.logMessage("[" + champ.getName() + "] [" + champ.getAttackDamage() + "] physical damage", false, true);
-            }
-        });
-    }
-
-    public void showMResistChamp() {
-        championsList.forEach(champ -> {
-            if (champ.getMagicResist() > 30) {
-                Loggers.logMessage("[" + champ.getName() + "] [" + champ.getMagicResist() + "] magic resist", false, true);
-            }
-        });
-    }
-
-    public void showPResistChamp() {
-        championsList.forEach(champ -> {
-            if (champ.getPhysicalResist() > 30) {
-                Loggers.logMessage("[" + champ.getName() + "] [" + champ.getPhysicalResist() + "] physical resist", false, true);
-            }
-        });
-    }
-
-    public void showChampions() {
-        championsList.forEach(champ -> {
-            Loggers.logMessage("[" + champ.getName() + "]", false, true);
-        });
-    }
-
+//    public void showChampionsByClass(Class <?> classType) {
+//        List <Champion> champTypeList = championsList.stream()
+//                .filter(classType::isInstance);
+//        champTypeList
+//.forEach(champ -> Loggers.logMessage("[" + ((Champion) champ).getName() + "]", false, true);)
+//    }
+    //Enable pick champion for players
     private void championPick() {
         final int[] i = {1};
         int selectChampion1;
@@ -172,10 +188,10 @@ public class Game implements GameActions {
             Loggers.logMessage("[" + i[0]++ + "][" + champ.getName() + "]", false, true);
         });
         Loggers.logMessage("[OTHER][RANDOM]", false, true);
-//        readChampions();
         Scanner input = new Scanner(System.in);
         Loggers.logMessage(tm.getCurrentPlayer().getName() + " choose your champion(type number): ", false, true);
         selectChampion1 = Loggers.choiceValidator(input);
+        Loggers.logMessage(tm.getNextPlayer().getName() + " choose your champion(type number): ", false, true);
         selectChampion2 = Loggers.choiceValidator(input);
         selectChampion1 = validateChampion(selectChampion1, selectChampion2);
         selectChampion2 = validateChampion(selectChampion2, selectChampion1);
@@ -183,17 +199,14 @@ public class Game implements GameActions {
         tm.getNextPlayer().setChampion(championsList.get(selectChampion2 - 1));
     }
 
-    public TurnManager getTM() {
-        return tm;
-    }
-
+    //Checking if selected champion is in range of championsList
     private int validateChampion(int selectedChampion, int otherChampion) {
         while (selectedChampion > championsList.size() || selectedChampion < 1 || selectedChampion == otherChampion) {
-            selectedChampion = new Random().nextInt(1, 13);
+            selectedChampion = new Random().nextInt(1, championsList.size());
         }
         return selectedChampion;
     }
-
+    
     private void addFightWinner(Champion winner) {
         fightWinners.merge(winner.getName(), 1, (currentValue, newValue) -> currentValue + newValue);
     }

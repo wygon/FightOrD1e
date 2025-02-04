@@ -1,6 +1,6 @@
 package fightord1e.championAssets;
 
-public class Assasin extends Mage{
+public class Assasin extends Champion{
     
     public Assasin(String name, double healthPoints, double attackDamage, double magicDamage, double physicalResist, double magicResist, int distancePoint, Ability[] abilities) {
         super(name, healthPoints, attackDamage, magicDamage, physicalResist, magicResist, distancePoint, abilities);
@@ -13,7 +13,7 @@ public class Assasin extends Mage{
 
     @Override
     public String toString() {
-        return super.toString() + "\n I AM LUCKY!: ";
+        return super.toString() + "\n I AM ABLE TO CRIT! ";
     }
 
     @Override

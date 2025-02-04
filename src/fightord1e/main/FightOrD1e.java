@@ -1,6 +1,10 @@
 //Szymon Wygoński
 package fightord1e.main;
 
+import fightord1e.championAssets.Assasin;
+import fightord1e.championAssets.Champion;
+import fightord1e.championAssets.Mage;
+import fightord1e.championAssets.Tank;
 import fightord1e.engine.Game;
 import fightord1e.engine.Player;
 import java.util.Map;
@@ -8,7 +12,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 import textManagement.Loggers;
 
-public class FightOrD1e{
+public class FightOrD1e {
 
     private static final int PLAY_GAME = 1;
     private static final int VIEW_STATS = 2;
@@ -17,11 +21,14 @@ public class FightOrD1e{
     private static final int EXIT_GAME = 0;
 
     public static void main(String[] args) {
+        Loggers.clearScreen();
         Map<String, Integer> fightWinners = new HashMap<>();
         Scanner input = new Scanner(System.in);
-        Loggers.logMessage("Hi players! - enter your name\n[PLAYER 1]: ", false, true);
+        Loggers.logMessage("WELCOME IN Fight Or D1e - turn based game!", false, true);
+        Loggers.logMessage("Hi player! - enter your name\n[PLAYER 1]: ", false, true);
         String p1Name = input.nextLine();
-        Loggers.logMessage("Hi players! - enter your name\n[PLAYER 2]: ", false, true);
+        Loggers.clearScreen();
+        Loggers.logMessage("Hi player! - enter your name\n[PLAYER 2]: ", false, true);
         String p2Name = input.nextLine();
         Player p1 = new Player(p1Name);
         Player p2 = new Player(p2Name);
@@ -29,6 +36,7 @@ public class FightOrD1e{
         g.applyChampionsList();
         int gameNumber = 0;
         int move;
+        Loggers.clearScreen();
         do {
             displayMainMenu();
             move = Loggers.choiceValidator(input);
@@ -45,7 +53,7 @@ public class FightOrD1e{
                 //Loggers.logMessage("Invalid choice!", false, true);
             }
         } while (move != EXIT_GAME);
-        end();
+        displayCredits();
     }
 
     private static void gameLoop(Game g, int gameNumber, Scanner input) {
@@ -61,6 +69,7 @@ public class FightOrD1e{
                 playAgain = true;
             }
         } while (playAgain);
+        Loggers.clearScreen();
     }
 
     private static void displayMainMenu() {
@@ -89,30 +98,35 @@ public class FightOrD1e{
     }
 
     private static void displaySpecifiedChampion(Game g, Scanner input) {
+        Loggers.clearScreen();
         Loggers.logMessage("""       
-                            \t[1]See champions - no filter
-                            \t[2]See Magical champions
-                            \t[3]See Physical champions
-                            \t[4]See Great magic tanks
-                            \t[5]See Great physical tanks
+                            [1]See champions - no filter
+                            [2]See single champion stats
+                            [3]See Magical champions
+                            [4]See Physical champions
+                            [5]See Great magic tanks
+                            [6]See Great physical tanks
                                    """, false, true);
         int choice = Loggers.choiceValidator(input);
-        Loggers.clearScreen();
+//        Loggers.clearScreen();
         switch (choice) {
             case 2 ->
-                g.showMagicChamp();
+                g.displaySpecifiedChampionStats(input);
             case 3 ->
-                g.showPhysicalChamp();
+                g.showChampByValue(Champion::getMagicDamage, 75, "magic damage");
             case 4 ->
-                g.showMResistChamp();
+                g.showChampByValue(Champion::getAttackDamage, 61, "physical damage");
             case 5 ->
-                g.showPResistChamp();
+                g.showChampByValue(Champion::getMagicResist, 30, "magic resist");
+            case 6 ->
+                g.showChampByValue(Champion::getPhysicalResist, 30, "physical resist");
             default ->
                 g.showChampions();
         }
     }
-    private static void end()
-    {
-        Loggers.logMessage("Thanks for playing!\nCredits: \nTitle: FightOrD1e\nVersion: 1.0\nAuthor: Szymon Wygonski\nContact: swygonski@student.wsb-nlu.edu.pl", false, true);
+
+    private static void displayCredits() {
+        Loggers.clearScreen();
+        Loggers.logMessage("Thanks for playing!\nCredits: \nTitle: FightOrD1e\nVersion: 1.0\nAuthor: Szymon Wygonski\nContact: swygonski@student.wsb-nlu.edu.pl\nGithub: github.com/wygon", false, true);
     }
 }

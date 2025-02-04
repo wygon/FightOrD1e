@@ -13,9 +13,10 @@ public class TurnManager {
     private Player np;
     private int tourPoint;
     private int totalMovesCount;
-    Random rand = new Random();
+    private Random rand;
 
     public TurnManager(Player player1, Player player2) {
+        this.rand = new Random();
         this.cp = player1;
         this.np = player2;
         this.tourPoint = 0;
@@ -23,16 +24,19 @@ public class TurnManager {
     }
 
     public TurnManager() {
+        this.rand = new Random();
         this.tourPoint = 0;
         this.totalMovesCount = 0;
     }
 
+    //Swapping players to enable tour gameplay.
     public void swapPlayers() {
         Player fakePlayer = np;
         np = cp;
         cp = fakePlayer;
     }
 
+    //Function whoStart is returning Player who is starting game.
     public Player whoStart() {
         int n = rand.nextInt(2);
         if (n == 0) {
@@ -60,10 +64,8 @@ public class TurnManager {
             if (unLuckyNumber == rand.nextInt(10)) {
                 mess += "Missed move.";
             } else {
-                if (getCurrentChampion().getSpecialSpellType() == SpellType.CRIT)
-                {
-                    if(1 == rand.nextDouble(5))
-                    {
+                if (getCurrentChampion().getSpecialSpellType() == SpellType.CRIT) {
+                    if (1 == rand.nextDouble(5)) {
                         multipilier = 1.25;
                         mess += "[CRIT]";
                     }
@@ -166,7 +168,6 @@ public class TurnManager {
             Loggers.logMessage(mess, true, true);
             ability.addUsesLeft(-1);
         }
-
     }
 
     //Checking if any effect is applied and - if: doing it work 
@@ -215,7 +216,6 @@ public class TurnManager {
             Loggers.logMessage("=================================================", false, true);
         }
     }
-
 
     //Checking - if: range is okay to start fight - if not: ending tour
     public void rangeCheck() {
