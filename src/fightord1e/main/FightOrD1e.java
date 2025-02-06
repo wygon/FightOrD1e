@@ -1,10 +1,7 @@
 //Szymon Wygoński
 package fightord1e.main;
 
-import fightord1e.championAssets.Assasin;
 import fightord1e.championAssets.Champion;
-import fightord1e.championAssets.Mage;
-import fightord1e.championAssets.Tank;
 import fightord1e.engine.Game;
 import fightord1e.engine.Player;
 import java.util.Map;

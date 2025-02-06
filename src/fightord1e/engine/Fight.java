@@ -104,6 +104,7 @@ public class Fight implements GameActions {
                     case 10:
                         Loggers.clearScreen();
                         Loggers.logMessage(ally.getName() + ":\n" + ally.lessStats(), false, true);
+                        break;
                     case 99:
                         Loggers.clearScreen();
                         tm.setTourPoint(3);

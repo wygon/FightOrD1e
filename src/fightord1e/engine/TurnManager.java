@@ -55,7 +55,7 @@ public class TurnManager {
         return a;
     }
 
-    //Function useAbility is responsible for using right ability 
+    //Function useAbility is responsible for using right ability and applaying spells
     public void useAbility(Ability ability) {
         if (ability.isAvailable()) {
             double multipilier = 1;
